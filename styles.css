@@ -1,0 +1,203 @@
+:root {
+    --background: #f3f4f6;
+    --foreground: #111827;
+    --primary: #4f46e5;
+    --secondary: #e5e7eb;
+    --accent: #818cf8;
+    --card: #ffffff;
+    --card-foreground: #111827;
+    --border: #e5e7eb;
+    --ring: #4f46e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    line-height: 1.5;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+}
+
+.card {
+    max-width: 64rem;
+    margin: 0 auto;
+    background-color: var(--card);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 100%;
+    height: 12rem;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    padding: 2rem;
+}
+
+.job-title {
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.contact-item:hover {
+    color: var(--primary);
+}
+
+.contact-item i {
+    margin-right: 0.5rem;
+}
+
+.navigation {
+    background-color: var(--secondary);
+    padding: 0.75rem 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #6b7280;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover, .nav-button.active {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: var(--foreground);
+}
+
+.content {
+    padding: 2rem;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-position: inside;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--secondary);
+    padding: 1.25rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-link {
+    color: #9ca3af;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #6b7280;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+@media (min-width: 768px) {
+    .profile {
+        flex-direction: row;
+    }
+
+    .profile-image {
+        width: 12rem;
+        height: auto;
+    }
+
+    .profile-info {
+        flex: 1;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
