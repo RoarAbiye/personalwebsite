@@ -1,0 +1,38 @@
+# Hugo's default directories
+/resources/
+
+# Hugo configuration file backups
+config.toml.backup
+config.yaml.backup
+config.json.backup
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Package manager and dependency manager files (if using Go modules)
+go.sum
+go.mod
+
+# Hugo theme folder (if you're using a theme stored locally)
+themes/PaperMod/
+
+# Hugo cache files (optional)
+.cache/
+
+
+# Node.js modules (if you're using JavaScript tooling)
+node_modules/
+
+# Any other build artifacts
+/dist/
