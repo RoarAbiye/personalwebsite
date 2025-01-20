@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Robel ቀላልTech</title>
+    <title>Blogs on Robel Abiye</title>
     <link>https://www.robel.dev.et/blog/</link>
-    <description>Recent content in Blogs on Robel ቀላልTech</description>
-    <generator>Hugo -- 0.141.0</generator>
+    <description>Recent content in Blogs on Robel Abiye</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2025 15:42:39 +0300</lastBuildDate>
     <atom:link href="https://www.robel.dev.et/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -13,43 +13,7 @@
       <link>https://www.robel.dev.et/blog/about-neovim/</link>
       <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
       <guid>https://www.robel.dev.et/blog/about-neovim/</guid>
-      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው&lt;/li&gt;
-&lt;li&gt;ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት&lt;/li&gt;
-&lt;li&gt;ኒዮቪምን ተመራጭ የሚያደርገው በቀላሉ ፊቸሮችን መጨመር ማስቻሉ፣ እንደፈለግነው ኮንፊገር መደረግ መቻሉ፣ extensibility ብዙ የፕለግኢን አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ&lt;/li&gt;
-&lt;li&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሞኖረኒን ግንዛቤ ሌሎች ቴክስት እዲተሮች ማዋል መቻሉ።&lt;/li&gt;
-&lt;li&gt;ለመጀመርያ ጊዜ ቲኒሽ ሊያምታታ ይችላል፣ ቲኒሽ ከታገስነው ፤ግማሽ ቀን ከበዛ 1 ቀን በጣም ከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላለን&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;መሰረታዊ-ሞዶች&#34;&gt;መሰረታዊ ሞዶች&lt;/h1&gt;
-&lt;h2 id=&#34;1-normal-mode&#34;&gt;1. Normal mode&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;በዋናነት ትስሁፋችን ዉስጥ ለመንቀሳ&lt;/li&gt;
-&lt;li&gt;የተለያዩ የኤዲተር ተግባራትን ለመተግበር&lt;/li&gt;
-&lt;li&gt;ምሳሌ፦ ኮፒ፣ መሰረዝ፣ በፅሁፋችን ውስጥ ለመንቀሳቀስ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;2-visual-mode&#34;&gt;2. Visual mode&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ለመምረጥ (text selection) ጋር የተያያዙ እዲተር ተግባርትን ለመፈጸም&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;3-insert-mode&#34;&gt;3. Insert mode&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ጽሑፍ ለመጻፍ የምንጠቀምብት&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;ለመጀመር-ያክል&#34;&gt;ለመጀመር ያክል&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;ኒዮቪምን ስንከፍት በኖርማል ሞድ ይጀምራል&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;እነዚህን-ቁልፎች-በመንካት-የተልርያዩ-ነገሮችን-ማድረግ-እንችላለን&#34;&gt;እነዚህን ቁልፎች በመንካት የተልርያዩ ነገሮችን ማድረግ እንችላለን&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;:q&amp;lt;Enter&amp;gt;&lt;/code&gt; ለመዝጋት&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:w&amp;lt;Enter&amp;gt;&lt;/code&gt; የፃፍነውን ነገር ሴቭ ለማድረግ&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;፡q!&amp;lt;Enter&amp;gt;&lt;/code&gt; ሴቭ ሳናደርግ ለምዝጋት&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;i&lt;/code&gt; ወደ ኢንሰርት ሞድ ለመግባት&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Esc&lt;/code&gt; ወደ ኖርማል ሞድ ለመግባት/ለመመለስ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;:&lt;/code&gt; ይህን የ ኮለን (colon) ምልክት ስንጫን/ስንነካ ወደ command mode እንገባለን።  ማለትም &lt;code&gt;w&lt;/code&gt;,&lt;code&gt;q&lt;/code&gt;,&lt;code&gt;q!&lt;/code&gt; የኮማንድ ሞድ (ብዙ ጊዘ &lt;code&gt;x&lt;/code&gt; ሞደ ይባላል) ኮማንዶች ናቸው። የኮማንድ ሞድ ኮማንዶች &lt;code&gt;&amp;lt;Enter&amp;gt;&lt;/code&gt; ስንነካ ነው ተግባር ላይ የሚዉሉት።&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;https://www.robel.dev.et/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

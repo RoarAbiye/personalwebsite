@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Robel ቀላልTech</title>
-    <link>https://www.robel.dev.et/about/</link>
-    <description>Recent content in Abouts on Robel ቀላልTech</description>
-    <generator>Hugo -- 0.141.0</generator>
+    <title>Abouts on Robel Abiye</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Robel Abiye</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2025 15:48:53 +0300</lastBuildDate>
-    <atom:link href="https://www.robel.dev.et/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://www.robel.dev.et/about/about/</link>
-      <pubDate>Sun, 19 Jan 2025 15:48:53 +0300</pubDate>
-      <guid>https://www.robel.dev.et/about/about/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;
-&lt;h2 id=&#34;exploring-the-intersection-of-accounting-and-technology&#34;&gt;Exploring the Intersection of Accounting and Technology&lt;/h2&gt;
-&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds — from &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;cutting-edge technology&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;
-&lt;p&gt;With over five years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax calculations&lt;/strong&gt;, and &lt;strong&gt;budget management&lt;/strong&gt;. Through my blog, I aim to simplify accounting concepts for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;&#xA;&lt;h2 id=&#34;exploring-the-intersection-of-accounting-and-technology&#34;&gt;Exploring the Intersection of Accounting and Technology&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds — from &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;cutting-edge technology&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;&#xA;&lt;p&gt;With over five years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax calculations&lt;/strong&gt;, and &lt;strong&gt;budget management&lt;/strong&gt;. Through my blog, I aim to simplify accounting concepts for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
