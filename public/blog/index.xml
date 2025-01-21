@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Robel Abiye</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2025 15:42:39 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 06:47:30 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Termux</title>
+      <link>http://localhost:1313/blog/about-termux/</link>
+      <pubDate>Tue, 21 Jan 2025 06:47:30 +0000</pubDate>
+      <guid>http://localhost:1313/blog/about-termux/</guid>
+      <description>&lt;p&gt;ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ&lt;/p&gt;&#xA;&lt;h2 id=&#34;ስለሊኑክስ-linux&#34;&gt;ስለሊኑክስ (Linux)&lt;/h2&gt;&#xA;&lt;p&gt;ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።&lt;/p&gt;&#xA;&lt;h2 id=&#34;ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና&#34;&gt;ሊኑክስ እና አንድሮይድ ያላቸው ዝምድና&lt;/h2&gt;&#xA;&lt;p&gt;የአንድሮኢድ ኮር ሲስተም (ዋና ክፍል) የሊኑክስ &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Kernel_(operating_system)&#34;&gt;ከርንልን&lt;/a&gt; ይጠቀማል። ይህም ማለት ግን እንደ ዴስክቶፕም ሆነ እንደ ሰርቨር የሊኑክስን ሙሉ አገልግሎት ማግኘት እንችላለን ማለት አይደለም። ​የአንድሮይድ አፕልኬሽኖች የሚጠቀሙት የ የራሳቸው ሌየር(layer) ስላለ እና የአንድሮይድ ደህንነተና (security) ሌሎች የአሰራር ሁኔታዎች (design) በቀጥታ ከከርንሉ ጋር መገናኘትን ስለሚያግዱ በአንድሮይድ ላይ የሊኒክስን ሙሉ አገልግሎት ማግኘት አንችልም።&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Neovim</title>
       <link>http://localhost:1313/blog/about-neovim/</link>
