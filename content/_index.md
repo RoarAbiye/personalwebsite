@@ -1,7 +1,7 @@
 +++
 title= "Welcome to Robel Abiye's Blog"
-description= "A space where technology meets accounting, sharing insights in both fields."
-layout= "home"  # Optional, specify a custom layout if needed
+description = "A space where technology meets accounting, sharing insights in both fields."
+layout = "home"  # Optional, specify a custom layout if needed
 +++
 
 # Welcome to My Blog

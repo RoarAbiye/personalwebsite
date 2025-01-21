@@ -1,20 +1,34 @@
 baseURL = 'https://www.robel.dev.et'
 languageCode = 'en-us'
-title = 'Robel ቀላልTech'
-theme = 'PaperMod'
+title = 'Robel Abiye'
+theme = 'hugo-theme-m10c'
+# theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 1
   
   [[menu.main]]
     name = "Blog"
-    url = "/blog/"
+    url = "/blog"
     weight = 2
 
   [[menu.main]]
     name = "Contact Me"
-    url = "/contact/"
+    url = "/contact"
     weight = 3
+
+[params]
+description = "Exploring the Intersection of Accounting and Technology"
+avatar = "images/avatar.jpg"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      linkify = true
+      typographer = true
+      attributes = true

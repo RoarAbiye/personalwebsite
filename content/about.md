@@ -1,7 +1,7 @@
 +++
-date = '2025-01-19T15:48:53+03:00'
 draft = false
 title = 'About Me'
+layout = "single"
 +++
 
 # Welcome to My Blog
