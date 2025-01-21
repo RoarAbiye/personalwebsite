@@ -2,7 +2,6 @@ baseURL = 'https://www.robel.dev.et'
 languageCode = 'en-us'
 title = 'Robel Abiye'
 theme = 'hugo-theme-m10c'
-# theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
