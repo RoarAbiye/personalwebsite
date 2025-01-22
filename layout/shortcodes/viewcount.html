@@ -1,0 +1,14 @@
+<span class="views">
+    Views: <span id="view-count-{{ .Page.File.UniqueID }}">Loading...</span>
+</span>
+<script>
+    fetch('https://yourdomain.com/api/views?page={{ .Page.RelPermalink }}')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('view-count-{{ .Page.File.UniqueID }}').innerText = data.views;
+        })
+        .catch(err => {
+            console.error('Error fetching view count:', err);
+        });
+</script>
+
