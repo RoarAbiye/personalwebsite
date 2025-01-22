@@ -29,6 +29,7 @@ title = 'About Termux'
 $ pkg update && pkg upgrade # ሲስተማችንን ለማደስ(updating our system)
 $ pkg install <የፕሮግራም ስም> #ፕሮግራሞችን ለምጫን
 $ pkg remove <የፕሮግራም ስም> #ፕሮግራሞችን ከሲስተማችን ለማስወገድ
-```
 
 ቻውቻው!!
+
+views: {{< viewcount >}}
