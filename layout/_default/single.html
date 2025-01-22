@@ -1,0 +1,21 @@
+<article>
+    <header>
+        <h1>{{ .Title }}</h1>
+        <p class="metadata">
+            <span class="views">Views: <span id="view-count">Loading...</span></span>
+        </p>
+    </header>
+    <main>
+        {{ .Content }}
+    </main>
+</article>
+<script>
+    fetch('https://robel.dev.et/api/views?page={{ .RelPermalink }}')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('view-count').innerText = data.views;
+        })
+        .catch(err => {
+            console.error('Error fetching view count:', err);
+        });
+</script>
