@@ -6,17 +6,24 @@
     <description>Recent content in Welcome to Robel Abiye&#39;s Blog on Robel Abiye</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 06:47:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 12:19:39 +0300</lastBuildDate>
     <atom:link href="https://www.robel.dev.et/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Termux</title>
+      <title>ኒዮቪም ተርመክስ ላይ ስለመጫን</title>
+      <link>https://www.robel.dev.et/blog/neovim-on-termux/</link>
+      <pubDate>Thu, 23 Jan 2025 12:19:39 +0300</pubDate>
+      <guid>https://www.robel.dev.et/blog/neovim-on-termux/</guid>
+      <description>&lt;p&gt;ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ &lt;code&gt;pkg i neovim&lt;/code&gt; የሚለውን ኮማንድ በመጠቀም።&lt;/p&gt;&#xA;&lt;p&gt;በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።&lt;/p&gt;&#xA;&lt;h3 id=&#34;አስፈላጊ-ፕሮግራሞች&#34;&gt;አስፈላጊ ፕሮግራሞች&lt;/h3&gt;&#xA;&lt;p&gt;ኮምፓይል ከማድረጋችን በፊት አስፈላጊ ነገሮችን ማውረድ እና ሲስተማችን ላይ መጫን ያስፈልገናል። ለምሳሌ &lt;code&gt;git&lt;/code&gt; ሪፖዚቶሪ ክሎን ለማድረግ፣ &lt;code&gt;cmake&lt;/code&gt; ኮምፓይል ለማድረግ እናሌሎች ፕሮግራሞችን መጫን ያስፈልጋል።&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ስለተርመክስ</title>
       <link>https://www.robel.dev.et/blog/about-termux/</link>
       <pubDate>Tue, 21 Jan 2025 06:47:30 +0000</pubDate>
       <guid>https://www.robel.dev.et/blog/about-termux/</guid>
       <description>&lt;p&gt;ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ&lt;/p&gt;&#xA;&lt;h2 id=&#34;ስለሊኑክስ-linux&#34;&gt;ስለሊኑክስ (Linux)&lt;/h2&gt;&#xA;&lt;p&gt;ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።&lt;/p&gt;&#xA;&lt;h2 id=&#34;ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና&#34;&gt;ሊኑክስ እና አንድሮይድ ያላቸው ዝምድና&lt;/h2&gt;&#xA;&lt;p&gt;የአንድሮኢድ ኮር ሲስተም (ዋና ክፍል) የሊኑክስ &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Kernel_(operating_system)&#34;&gt;ከርንልን&lt;/a&gt; ይጠቀማል። ይህም ማለት ግን እንደ ዴስክቶፕም ሆነ እንደ ሰርቨር የሊኑክስን ሙሉ አገልግሎት ማግኘት እንችላለን ማለት አይደለም። ​የአንድሮይድ አፕልኬሽኖች የሚጠቀሙት የ የራሳቸው ሌየር(layer) ስላለ እና የአንድሮይድ ደህንነተና (security) ሌሎች የአሰራር ሁኔታዎች (design) በቀጥታ ከከርንሉ ጋር መገናኘትን ስለሚያግዱ በአንድሮይድ ላይ የሊኒክስን ሙሉ አገልግሎት ማግኘት አንችልም።&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Neovim</title>
+      <title>ስለኒዮቪም</title>
       <link>https://www.robel.dev.et/blog/about-neovim/</link>
       <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
       <guid>https://www.robel.dev.et/blog/about-neovim/</guid>

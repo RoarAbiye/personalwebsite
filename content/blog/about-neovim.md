@@ -1,7 +1,7 @@
 +++
 date = '2025-01-19T15:42:39+03:00'
 draft = false
-title = 'About Neovim'
+title = 'ስለኒዮቪም'
 +++
 # ስለ ኒዮቪም (neovim)
 

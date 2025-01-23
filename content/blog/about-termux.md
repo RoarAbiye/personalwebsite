@@ -1,7 +1,7 @@
 +++
 date = '2025-01-21T06:47:30Z'
 draft = false
-title = 'About Termux'
+title = 'ስለተርመክስ'
 +++
 ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ
 
