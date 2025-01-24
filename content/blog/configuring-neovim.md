@@ -24,7 +24,7 @@ touch init.lau #የኮንፊግ ፋይላችንን ለመፍጠር
 nvim init.lua #ኒዮቪምን ተጠቅመን ፋይላችንን ኢዲት ለማድረግ
 ```
 
->ኒዮቪም ለኮንፊግሬሽን የሚጠቀምበት የscripting language **Lua** ይባልላ።  በቀላሉ Luaን ለመለመድ ይህን [Learn X in Y minute](https://youtu.be/0uQ3bkiW5SE?si=6tA6nOu5eW3wXnPu) ገፅ ይጎብኙ። ከዚህ በፊት የ ፕሮግራሚንግ እውቀት ካላችሁ Lua መቁጠር የሚጀምረው ከ`1` ነው እንደሌሎቹ ፕሮግራሚንግ ቋንቋዎች ከ `0` አይደለም። 
+>ኒዮቪም ለኮንፊግሬሽን የሚጠቀምበት የscripting language **Lua** ይባልላ።  በቀላሉ Luaን ለመለመድ ይህን [Learn X in Y minute](https://learnxinyminutes.com/lua/) ገፅ ይጎብኙ። ከዚህ በፊት የ ፕሮግራሚንግ እውቀት ካላችሁ Lua መቁጠር የሚጀምረው ከ`1` ነው እንደሌሎቹ ፕሮግራሚንግ ቋንቋዎች ከ `0` አይደለም። 
 
 ከዚህ በታች ያለዉን የኮንፊግሬሽን ጽሁፍ በ `~/.config/nvim/init.lua` ዉስጥ ኮፒ እና ፔስት በማድረግ እንጀምር
 > ኮፒ ፔስት ማድረግ ካልፈለኝ ከከፈትን በኋላ `i`ን ነክተን ወደ ኢንሰርት ሞደ እንገባለን
