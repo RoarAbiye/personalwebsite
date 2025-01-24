@@ -1,18 +1,18 @@
 baseURL = 'https://www.robel.dev.et'
 languageCode = 'en-us'
-title = 'Robel Abiye'
+title = 'ቀላልTech'
 theme = 'hugo-theme-m10c'
 
 [menu]
   [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 1
+    weight = 2
   
   [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 2
+    weight = 1
 
   [[menu.main]]
     name = "Contact Me"

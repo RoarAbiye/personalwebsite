@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Robel Abiye&#39;s Blog on Robel Abiye</title>
+    <title>ቀላልTech</title>
     <link>https://www.robel.dev.et/</link>
-    <description>Recent content in Welcome to Robel Abiye&#39;s Blog on Robel Abiye</description>
+    <description>Recent content on ቀላልTech</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 12:19:39 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2025 11:07:48 +0300</lastBuildDate>
     <atom:link href="https://www.robel.dev.et/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ኒዮቪምን ስለማቀናበር</title>
+      <link>https://www.robel.dev.et/blog/configuring-neovim/</link>
+      <pubDate>Fri, 24 Jan 2025 11:07:48 +0300</pubDate>
+      <guid>https://www.robel.dev.et/blog/configuring-neovim/</guid>
+      <description>&lt;h1 id=&#34;ኒዮቪምን-በተርመክስ-ላይ-ስለማቀናበር&#34;&gt;ኒዮቪምን በተርመክስ ላይ ስለማቀናበር&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪምን ከጫንን በኋላ ይለዉን አቅም ለመጠቀም የራስችንን ኮንፊግሬሽን ፋይሎች መጻፍ ይኖርብናል። ለኒዮቪም አንዲስ ከሆንን ወይንም ይራሳችንን ኮንፊግሬሽን ፋይሎች ለመፃፍ ካልፈለግን ሌሎች የሌሎች ሰዎችን ኮንግሬሽን በመውሰድ (ጊትሃብ ላይ በብዛት ማግኘት ይቻላል) መጠቀም እንችላለን።&lt;/p&gt;&#xA;&lt;p&gt;ከዛም ባለፈ የተለያዩ የኒዮቪም ኮንፊግሬሽን ዲስትሪቢውሽኖችን በመጠቀም በቀላሉ መጠቀም መጀመር ይቻላል። እነዚህ የኒዮቪም ዲስትሪቢዉሽኖች በጥንቃቄ የተጻፉና ኒዮቪምን አቅም በጣም አጉልተው ማሳየት የሚችሉ እና ኒቪምን ከጽሁፍ ማስተካከያ (normal text editor) ወደ IDE (Integrated Development Environment) ደረጃ ማድረስ የሚችሉ ናቸው። ነገር ገን የኒዮቪም ኮንፊግሬሽን እራሳችን ስንፅፍ ስለ ኒዮቪም ያለን ግንዛቤ ከፍ ስለሚል እና ከራሳችን የአሰራር ባህሪ ጋር እንዲዋሃድ ማድረግ ስለምንችል ዲስትሪቢውሽኖችን ባንጠቀም የምረጣል።&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ኒዮቪም ተርመክስ ላይ ስለመጫን</title>
       <link>https://www.robel.dev.et/blog/neovim-on-termux/</link>
@@ -27,14 +34,14 @@
       <link>https://www.robel.dev.et/blog/about-neovim/</link>
       <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
       <guid>https://www.robel.dev.et/blog/about-neovim/</guid>
-      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;https://www.robel.dev.et/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;https://www.robel.dev.et/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xD;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
       <link>https://www.robel.dev.et/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.robel.dev.et/about/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;&#xA;&lt;h2 id=&#34;exploring-the-intersection-of-accounting-and-technology&#34;&gt;Exploring the Intersection of Accounting and Technology&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds — from &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;cutting-edge technology&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;&#xA;&lt;p&gt;With over five years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax calculations&lt;/strong&gt;, and &lt;strong&gt;budget management&lt;/strong&gt;. Through my blog, I aim to simplify accounting concepts for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds — from &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;cutting-edge technology&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;&#xA;&lt;p&gt;With over 11 years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax accounting&lt;/strong&gt;,&lt;strong&gt;budgeting&lt;/strong&gt;and &lt;strong&gt;tax reporting&lt;/strong&gt;. Through my blog, I aim to simplify accounting concepts for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact Me</title>

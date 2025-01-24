@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Robel Abiye</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Robel Abiye</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jan 2025 15:42:39 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ስለኒዮቪም</title>
+      <link>http://localhost:1313/blog/about-neovim/</link>
+      <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
+      <guid>http://localhost:1313/blog/about-neovim/</guid>
+      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
