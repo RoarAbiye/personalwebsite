@@ -1,7 +1,7 @@
 +++
 title = 'ቀላልTech'
 description = "A space where technology meets accounting, sharing insights in both fields."
-# layout = "home"  # Optional, specify a custom layout if needed
+layout = "home"  # Optional, specify a custom layout if needed
 +++
 
 # Welcome to ቀላልTech

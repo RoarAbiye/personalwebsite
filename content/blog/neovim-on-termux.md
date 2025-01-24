@@ -2,6 +2,8 @@
 date = '2025-01-23T12:19:39+03:00'
 draft = false
 title = 'ኒዮቪም ተርመክስ ላይ ስለመጫን'
+tags = ["termux", "intro", "linux-tools", "amharic"]
+categories = ["termux-tutorial", "neovim-tutorial"] 
 +++
 
 

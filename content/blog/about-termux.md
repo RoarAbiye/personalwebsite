@@ -2,6 +2,8 @@
 date = '2025-01-21T06:47:30Z'
 draft = false
 title = 'ስለተርመክስ'
+tags = ["termux", "intro", "linux-tools", "amharic"]
+categories = ["termux-tutorial"]
 +++
 ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ
 

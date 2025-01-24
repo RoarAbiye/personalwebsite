@@ -2,6 +2,8 @@
 date = '2025-01-19T15:42:39+03:00'
 draft = false
 title = 'ስለኒዮቪም'
+tags = ["termux", "intro", "linux-tools", "amharic"]
+categories = ["neovim-tutorial"]
 +++
 # ስለ ኒዮቪም (neovim)
 

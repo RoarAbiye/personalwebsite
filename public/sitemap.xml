@@ -2,7 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.robel.dev.et/tags/amharic/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
     <loc>https://www.robel.dev.et/blog/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/categories/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/tags/intro/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/tags/linux-tools/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/categories/neovim-tutorial/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/tags/</loc>
+    <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/tags/termux/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
     <loc>https://www.robel.dev.et/</loc>
@@ -10,6 +31,9 @@
   </url><url>
     <loc>https://www.robel.dev.et/blog/configuring-neovim/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
+  </url><url>
+    <loc>https://www.robel.dev.et/categories/termux-tutorial/</loc>
+    <lastmod>2025-01-23T12:19:39+03:00</lastmod>
   </url><url>
     <loc>https://www.robel.dev.et/blog/neovim-on-termux/</loc>
     <lastmod>2025-01-23T12:19:39+03:00</lastmod>
@@ -22,10 +46,6 @@
   </url><url>
     <loc>https://www.robel.dev.et/about/</loc>
   </url><url>
-    <loc>https://www.robel.dev.et/categories/</loc>
-  </url><url>
     <loc>https://www.robel.dev.et/contact/</loc>
-  </url><url>
-    <loc>https://www.robel.dev.et/tags/</loc>
   </url>
 </urlset>

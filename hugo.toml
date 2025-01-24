@@ -3,50 +3,67 @@ languageCode = 'en-us'
 title = 'ቀላልTech'
 theme = 'hugo-theme-m10c'
 
+
 [menu]
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
-  
   [[menu.main]]
     name = "Blog"
     url = "/blog"
     weight = 1
 
   [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+  [[menu.main]]
     name = "Contact Me"
     url = "/contact"
     weight = 3
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 4
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
 
 [params]
-description = "Exploring the Intersection of Accounting and Technology"
-avatar = "images/avatar.jpg"
-[[params.social]]
-  icon = "brand-github"
-  name = "My Github"
-  url = "https://github.com/RoarAbiye"
-[[params.social]]
-  icon = "brand-telegram"
-  name = "My telegram"
-  url = "https://t.me/robelabiye"
-[[params.social]]
-  icon = "brand-x"
-  name = "My twitter"
-  url = "https://x.com/RobelAbiye"
-[[params.social]]
-  icon = "brand-linkedin"
-  name = "My twitter"
-  url = "https://www.linkedin.com/in/robel-abiye/"
-[[params.social]]
-  icon = "brand-reddit"
-  name = "My twitter"
-  url = "https://www.reddit.com/u/RobelAbiye"
 
-[[params.social]]
-  icon = "brand-tiktok"
-  name = "My twitter"
-  url = "https://www.tiktok.com/@robeltalkstech"
+  description = "Exploring the Intersection of Accounting and Technology"
+  avatar = "images/avatar.jpg"
+  
+  [[params.social]]
+    icon = "brand-github"
+    name = "My Github"
+    url = "https://github.com/RoarAbiye"
+  
+  [[params.social]]
+    icon = "brand-telegram"
+    name = "My telegram"
+    url = "https://t.me/robelabiye"
+  
+  [[params.social]]
+    icon = "brand-x"
+    name = "My twitter"
+    url = "https://x.com/RobelAbiye"
+  
+  [[params.social]]
+    icon = "brand-linkedin"
+    name = "My twitter"
+    url = "https://www.linkedin.com/in/robel-abiye/"
+  
+  [[params.social]]
+    icon = "brand-reddit"
+    name = "My twitter"
+    url = "https://www.reddit.com/u/RobelAbiye"
+  
+  [[params.social]]
+    icon = "brand-tiktok"
+    name = "My twitter"
+    url = "https://www.tiktok.com/@robeltalkstech"
+
 
 [markup]
   [markup.goldmark]
@@ -56,3 +73,4 @@ avatar = "images/avatar.jpg"
       linkify = true
       typographer = true
       attributes = true
+
