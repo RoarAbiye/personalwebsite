@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amharic on ቀላልTech</title>
-    <link>https://www.robel.dev.et/tags/amharic/</link>
+    <link>http://localhost:1313/tags/amharic/</link>
     <description>Recent content in Amharic on ቀላልTech</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2025 11:07:48 +0300</lastBuildDate>
-    <atom:link href="https://www.robel.dev.et/tags/amharic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/amharic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ኒዮቪምን ስለማቀናበር</title>
-      <link>https://www.robel.dev.et/blog/configuring-neovim/</link>
+      <link>http://localhost:1313/blog/configuring-neovim/</link>
       <pubDate>Fri, 24 Jan 2025 11:07:48 +0300</pubDate>
-      <guid>https://www.robel.dev.et/blog/configuring-neovim/</guid>
+      <guid>http://localhost:1313/blog/configuring-neovim/</guid>
       <description>&lt;h1 id=&#34;ኒዮቪምን-በተርመክስ-ላይ-ስለማቀናበር&#34;&gt;ኒዮቪምን በተርመክስ ላይ ስለማቀናበር&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪምን ከጫንን በኋላ ይለዉን አቅም ለመጠቀም የራስችንን ኮንፊግሬሽን ፋይሎች መጻፍ ይኖርብናል። ለኒዮቪም አንዲስ ከሆንን ወይንም ይራሳችንን ኮንፊግሬሽን ፋይሎች ለመፃፍ ካልፈለግን ሌሎች የሌሎች ሰዎችን ኮንግሬሽን በመውሰድ (ጊትሃብ ላይ በብዛት ማግኘት ይቻላል) መጠቀም እንችላለን።&lt;/p&gt;&#xA;&lt;p&gt;ከዛም ባለፈ የተለያዩ የኒዮቪም ኮንፊግሬሽን ዲስትሪቢውሽኖችን በመጠቀም በቀላሉ መጠቀም መጀመር ይቻላል። እነዚህ የኒዮቪም ዲስትሪቢዉሽኖች በጥንቃቄ የተጻፉና ኒዮቪምን አቅም በጣም አጉልተው ማሳየት የሚችሉ እና ኒቪምን ከጽሁፍ ማስተካከያ (normal text editor) ወደ IDE (Integrated Development Environment) ደረጃ ማድረስ የሚችሉ ናቸው። ነገር ገን የኒዮቪም ኮንፊግሬሽን እራሳችን ስንፅፍ ስለ ኒዮቪም ያለን ግንዛቤ ከፍ ስለሚል እና ከራሳችን የአሰራር ባህሪ ጋር እንዲዋሃድ ማድረግ ስለምንችል ዲስትሪቢውሽኖችን ባንጠቀም የምረጣል።&lt;/p&gt;</description>
     </item>
     <item>
       <title>ኒዮቪም ተርመክስ ላይ ስለመጫን</title>
-      <link>https://www.robel.dev.et/blog/neovim-on-termux/</link>
+      <link>http://localhost:1313/blog/neovim-on-termux/</link>
       <pubDate>Thu, 23 Jan 2025 12:19:39 +0300</pubDate>
-      <guid>https://www.robel.dev.et/blog/neovim-on-termux/</guid>
+      <guid>http://localhost:1313/blog/neovim-on-termux/</guid>
       <description>&lt;p&gt;ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ &lt;code&gt;pkg i neovim&lt;/code&gt; የሚለውን ኮማንድ በመጠቀም።&lt;/p&gt;&#xA;&lt;p&gt;በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።&lt;/p&gt;&#xA;&lt;h3 id=&#34;አስፈላጊ-ፕሮግራሞች&#34;&gt;አስፈላጊ ፕሮግራሞች&lt;/h3&gt;&#xA;&lt;p&gt;ኮምፓይል ከማድረጋችን በፊት አስፈላጊ ነገሮችን ማውረድ እና ሲስተማችን ላይ መጫን ያስፈልገናል። ለምሳሌ &lt;code&gt;git&lt;/code&gt; ሪፖዚቶሪ ክሎን ለማድረግ፣ &lt;code&gt;cmake&lt;/code&gt; ኮምፓይል ለማድረግ እናሌሎች ፕሮግራሞችን መጫን ያስፈልጋል።&lt;/p&gt;</description>
     </item>
     <item>
       <title>ስለተርመክስ</title>
-      <link>https://www.robel.dev.et/blog/about-termux/</link>
+      <link>http://localhost:1313/blog/about-termux/</link>
       <pubDate>Tue, 21 Jan 2025 06:47:30 +0000</pubDate>
-      <guid>https://www.robel.dev.et/blog/about-termux/</guid>
+      <guid>http://localhost:1313/blog/about-termux/</guid>
       <description>&lt;p&gt;ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ&lt;/p&gt;&#xA;&lt;h2 id=&#34;ስለሊኑክስ-linux&#34;&gt;ስለሊኑክስ (Linux)&lt;/h2&gt;&#xA;&lt;p&gt;ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።&lt;/p&gt;&#xA;&lt;h2 id=&#34;ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና&#34;&gt;ሊኑክስ እና አንድሮይድ ያላቸው ዝምድና&lt;/h2&gt;&#xA;&lt;p&gt;የአንድሮኢድ ኮር ሲስተም (ዋና ክፍል) የሊኑክስ &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Kernel_(operating_system)&#34;&gt;ከርንልን&lt;/a&gt; ይጠቀማል። ይህም ማለት ግን እንደ ዴስክቶፕም ሆነ እንደ ሰርቨር የሊኑክስን ሙሉ አገልግሎት ማግኘት እንችላለን ማለት አይደለም። ​የአንድሮይድ አፕልኬሽኖች የሚጠቀሙት የ የራሳቸው ሌየር(layer) ስላለ እና የአንድሮይድ ደህንነተና (security) ሌሎች የአሰራር ሁኔታዎች (design) በቀጥታ ከከርንሉ ጋር መገናኘትን ስለሚያግዱ በአንድሮይድ ላይ የሊኒክስን ሙሉ አገልግሎት ማግኘት አንችልም።&lt;/p&gt;</description>
     </item>
     <item>
       <title>ስለኒዮቪም</title>
-      <link>https://www.robel.dev.et/blog/about-neovim/</link>
+      <link>http://localhost:1313/blog/about-neovim/</link>
       <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
-      <guid>https://www.robel.dev.et/blog/about-neovim/</guid>
-      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;https://www.robel.dev.et/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xD;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/about-neovim/</guid>
+      <description>&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ትስሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/about-neovim-1.gif&#34; alt=&#34;NeoNightmare&#34; width=&#34;300&#34;&gt;&#xA;&lt;p&gt;ከሞከርነው በኋላም ኒዪቪምን መጠቀም ባንፈልግ እንኳን ስለ ቪም የሚኖረንን ግንዛቤ ሌሎች ቴክስት እዲተሮች ላይ መዋል መቻሉ ስለኒዮቪም ብናውቅ ይጠቅማል እንጂ አይጎዳም። ኒዮቪምን መጠቀም በጀመርን ጊዜ ሊያምታታ ይችላል። ቲኒሽ ከታገስነው ፤ ግማሽ ቀን ከበዛ 1 ቀን በጣምከበዛ ሳምንት ባልበለጠ ጊዜ፤  መልመድ እንችላን።&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

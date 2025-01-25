@@ -14,6 +14,6 @@ _This blog is a personal space where I share my knowledge, learnings, and experi
 
 Stay tuned for regular updates on how you can leverage technology to improve your financial practices. Feel free to reach out with any questions or to collaborate on exciting projects!
 
-[Read the Blog](./blog) | [Contact Me](./contact)| [About the Author](./about)
+[Read the Blog](./blog) | [Contact Me](./contact) | [About the Author](./about)
 
 ---
