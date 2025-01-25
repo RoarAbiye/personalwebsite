@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ቀላልTech</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://www.robel.dev.et/categories/</link>
     <description>Recent content in Categories on ቀላልTech</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2025 11:07:48 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.robel.dev.et/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neovim-Tutorial</title>
-      <link>http://localhost:1313/categories/neovim-tutorial/</link>
+      <link>https://www.robel.dev.et/categories/neovim-tutorial/</link>
       <pubDate>Fri, 24 Jan 2025 11:07:48 +0300</pubDate>
-      <guid>http://localhost:1313/categories/neovim-tutorial/</guid>
+      <guid>https://www.robel.dev.et/categories/neovim-tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux-Tutorial</title>
-      <link>http://localhost:1313/categories/termux-tutorial/</link>
+      <link>https://www.robel.dev.et/categories/termux-tutorial/</link>
       <pubDate>Thu, 23 Jan 2025 12:19:39 +0300</pubDate>
-      <guid>http://localhost:1313/categories/termux-tutorial/</guid>
+      <guid>https://www.robel.dev.et/categories/termux-tutorial/</guid>
       <description></description>
     </item>
   </channel>

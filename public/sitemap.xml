@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/amharic/</loc>
+    <loc>https://www.robel.dev.et/tags/amharic/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://www.robel.dev.et/blog/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.robel.dev.et/categories/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>https://www.robel.dev.et/tags/intro/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux-tools/</loc>
+    <loc>https://www.robel.dev.et/tags/linux-tools/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/neovim-tutorial/</loc>
+    <loc>https://www.robel.dev.et/categories/neovim-tutorial/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.robel.dev.et/tags/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/termux/</loc>
+    <loc>https://www.robel.dev.et/tags/termux/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.robel.dev.et/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/configuring-neovim/</loc>
+    <loc>https://www.robel.dev.et/blog/configuring-neovim/</loc>
     <lastmod>2025-01-24T11:07:48+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/termux-tutorial/</loc>
+    <loc>https://www.robel.dev.et/categories/termux-tutorial/</loc>
     <lastmod>2025-01-23T12:19:39+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/neovim-on-termux/</loc>
+    <loc>https://www.robel.dev.et/blog/neovim-on-termux/</loc>
     <lastmod>2025-01-23T12:19:39+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/about-termux/</loc>
+    <loc>https://www.robel.dev.et/blog/about-termux/</loc>
     <lastmod>2025-01-21T06:47:30+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/about-neovim/</loc>
+    <loc>https://www.robel.dev.et/blog/about-neovim/</loc>
     <lastmod>2025-01-19T15:42:39+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.robel.dev.et/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://www.robel.dev.et/contact/</loc>
   </url>
 </urlset>
