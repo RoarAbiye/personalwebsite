@@ -39,10 +39,10 @@ theme = 'hugo-theme-m10c'
     name = "My Github"
     url = "https://github.com/RoarAbiye"
   
-  [[params.social]]
-    icon = "brand-telegram"
-    name = "My telegram"
-    url = "https://t.me/robelabiye"
+  # [[params.social]]
+  #   icon = "brand-telegram"
+  #   name = "My telegram"
+  #   url = "https://t.me/robelabiye"
   
   [[params.social]]
     icon = "brand-x"
