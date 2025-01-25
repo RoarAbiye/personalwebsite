@@ -173,7 +173,7 @@
 <p><code><p id="view-count-about-neovim">Views: Loading...</p>
 <script>
   const slug = "about-neovim";
-  fetch(`https://robel.dev.et/view/${slug}`)
+  fetch(`https://www.robel.dev.et/view/${slug}`)
     .then(response => response.json())
     .then(data => {
       document.getElementById('view-count-about-neovim').innerText = `Views: ${data.views}`;

@@ -1,7 +1,7 @@
 <p id="view-count-{{ .Page.File.BaseFileName }}">Views: Loading...</p>
 <script>
   const slug = "{{ .Page.File.BaseFileName }}";
-  fetch(`https://robel.dev.et/view/${slug}`)
+  fetch(`https://www.robel.dev.et/view/${slug}`)
     .then(response => response.json())
     .then(data => {
       document.getElementById('view-count-{{ .Page.File.BaseFileName }}').innerText = `Views: ${data.views}`;
