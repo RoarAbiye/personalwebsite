@@ -5,6 +5,7 @@ title = 'ኒዮቪም ተርመክስ ላይ ስለመጫን'
 tags = ["termux", "intro", "linux-tools", "amharic"]
 categories = ["termux-tutorial", "neovim-tutorial"] 
 +++
+`{{< viewcount >}}`
 
 
 ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ `pkg i neovim` የሚለውን ኮማንድ በመጠቀም።
@@ -50,5 +51,3 @@ make install # ኮምፓይል ያደረኘውን ለመጫን
 > ካስቸገራችሁ ጻፉልኝ
 
 ቻውቻው
-
-`{{< viewcount >}}`

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>ኒዮቪም ተርመክስ ላይ ስለመጫን // ቀላልTech</title>
+    <title>ለምን ተርሚናል ይመረጣል // ቀላልTech</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.141.0">
@@ -14,23 +14,20 @@
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="ኒዮቪም ተርመክስ ላይ ስለመጫን">
+  <meta name="twitter:title" content="ለምን ተርሚናል ይመረጣል">
   <meta name="twitter:description" content="Views: Loading...
-ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ pkg i neovim የሚለውን ኮማንድ በመጠቀም።
-በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።">
+የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን የጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር- ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።">
 
-    <meta property="og:url" content="https://www.robel.dev.et/blog/neovim-on-termux/">
+    <meta property="og:url" content="https://www.robel.dev.et/blog/why-terminal/">
   <meta property="og:site_name" content="ቀላልTech">
-  <meta property="og:title" content="ኒዮቪም ተርመክስ ላይ ስለመጫን">
+  <meta property="og:title" content="ለምን ተርሚናል ይመረጣል">
   <meta property="og:description" content="Views: Loading...
-ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ pkg i neovim የሚለውን ኮማንድ በመጠቀም።
-በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።">
+የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን የጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር- ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2025-01-23T12:19:39+03:00">
-    <meta property="article:modified_time" content="2025-01-23T12:19:39+03:00">
-    <meta property="article:tag" content="Termux">
+    <meta property="article:published_time" content="2025-01-26T11:00:50+03:00">
+    <meta property="article:modified_time" content="2025-01-26T11:00:50+03:00">
     <meta property="article:tag" content="Intro">
     <meta property="article:tag" content="Linux-Tools">
     <meta property="article:tag" content="Amharic">
@@ -85,19 +82,18 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">ኒዮቪም ተርመክስ ላይ ስለመጫን</h1>
+      <h1 class ="post-title">ለምን ተርሚናል ይመረጣል</h1>
       <div class="post-meta">
         <div>
           <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          Jan 23, 2025
+          Jan 26, 2025
         </div>
         <div>
           <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          1 min read
+          2 min read
         </div>
         <div>
           <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
-              <a class="tag" href="https://www.robel.dev.et/tags/termux/">Termux</a>
               <a class="tag" href="https://www.robel.dev.et/tags/intro/">Intro</a>
               <a class="tag" href="https://www.robel.dev.et/tags/linux-tools/">Linux-Tools</a>
               <a class="tag" href="https://www.robel.dev.et/tags/amharic/">Amharic</a>
@@ -105,41 +101,42 @@
       </div>
     </header>
     <div class="post-content">
-      <p><code><p id="view-count-neovim-on-termux">Views: Loading...</p>
+      <p><code><p id="view-count-why-terminal">Views: Loading...</p>
 <script>
-  const slug = "neovim-on-termux";
+  const slug = "why-terminal";
   fetch(`https://www.robel.dev.et/view/${slug}`)
     .then(response => response.json())
     .then(data => {
-      document.getElementById('view-count-neovim-on-termux').innerText = `Views: ${data.views}`;
+      document.getElementById('view-count-why-terminal').innerText = `Views: ${data.views}`;
     })
     .catch(err => console.error('Error fetching view count:', err));
 </script>
 </code></p>
-<p>ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ <code>pkg i neovim</code> የሚለውን ኮማንድ በመጠቀም።</p>
-<p>በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።</p>
-<h3 id="አስፈላጊ-ፕሮግራሞች">አስፈላጊ ፕሮግራሞች</h3>
-<p>ኮምፓይል ከማድረጋችን በፊት አስፈላጊ ነገሮችን ማውረድ እና ሲስተማችን ላይ መጫን ያስፈልገናል። ለምሳሌ <code>git</code> ሪፖዚቶሪ ክሎን ለማድረግ፣ <code>cmake</code> ኮምፓይል ለማድረግ እናሌሎች ፕሮግራሞችን መጫን ያስፈልጋል።</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># አስፈላጊ ፕሮግራሞችን ለመጫን</span>
-</span></span><span style="display:flex;"><span>pkg install git ninja gettext cmake curl build-essential luajit lua51-lpeg tree-sitter libtool automake utf8proc lua51 libluajit luarocks
-</span></span></code></pre></div><h3 id="ቋቱን-ወደ-ሲስተማችን-ለመቅዳት-clone-the-repository">ቋቱን ወደ ሲስተማችን ለመቅዳት (clone the repository)</h3>
-<p>ሙሉ የ ነዮቪም ቋትን አውርደን መጠቀ ብንችልም፤ ቀጥሎ ያልው የ ጊት ኮማንድ የምንፈልገውን ብራንች &ldquo;nightly&rdquo; እና የመጨረሻ ኮፒ &lsquo;depth=1&rsquo; የቀዳልናል።</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#ቋቱን ለመቅዳት</span>
-</span></span><span style="display:flex;"><span>git clone https://github.com/neovim/neovim --branch nightly --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-</span></span></code></pre></div><h3 id="ማቀናበር-compiling">ማቀናበር (compiling)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd neovim <span style="color:#75715e"># ክሎን ወዳደረነው ዳይሬክተሪ ለመግባት</span>
-</span></span><span style="display:flex;"><span>mkdir build <span style="color:#75715e"># &#39;build&#39; የሚል ዳይሬክተሪ ለመፍጠር</span>
-</span></span><span style="display:flex;"><span>cd build <span style="color:#75715e"># ወደ &#39;build&#39; ዳይሬክተሪ ለመግባት</span>
-</span></span><span style="display:flex;"><span>cmake -DCMAKE_INSTALL_PREFIX<span style="color:#f92672">=</span>$HOME/.local .. <span style="color:#75715e"># ኮምፓይል ለማድረግ</span>
-</span></span><span style="display:flex;"><span>make install <span style="color:#75715e"># ኮምፓይል ያደረኘውን ለመጫን</span>
-</span></span></code></pre></div><h3 id="ከጫንን-በኋላ">ከጫንን በኋላ</h3>
-<p>የሲስተማችን  <code>$PATH</code> ቫርያብለ የሚከተልውን የፋይል አድራሻ <code>~/.local/bin</code> መያዝ አለበት
-ቀጥሎ ያለዉን ኮድ <code>~/.zshrc</code> ወይንም <code>~/.bashrc</code> ዉስጥ ጨምሩ</p>
-<p><code>export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH</code></p>
-<blockquote>
-<p>ካስቸገራችሁ ጻፉልኝ</p>
-</blockquote>
-<p>ቻውቻው</p>
+<p>የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን የጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።</p>
+<h2 id="ትርጉም">ትርጉም</h2>
+<h3 id="cli">CLI</h3>
+<p>ኮማንድ ላይን ኢንተርፌስ ማለት በጽሁፍ ከሲተማችን ጋር ተዛዝ በመስጠት እን ምላሽ በማግኘት የምንስራበት ስራት ማለት ነው።</p>
+<h3 id="shell">Shell</h3>
+<p>ሼል ማለት የሲተም ፕሮግራሞችን ከሲስተማችን ከርንል ጋር ወዪንም ከልሌች ፕሮግራሞች ጋር እንደ ድልድይ ሆኖ የሚያገናኝልን ፕሮግራም ነው ለምሳሌ <code>ls</code> የሚለውን ፕሮግራም ስምጠቀም የሲተማችን ሼል ለከርንሉ ጥያቄ አቅርቦ ምላሹን የሚሰጥ ፕሮግራም ነው።</p>
+<h3 id="terminal">Terminal</h3>
+<p>ተርሚናል ከሸል ጋር የሚያገናኘን ፕሮግራም ነው።</p>
+<h2 id="cli-ላይ-የመስራት-ጥቅሞች">CLI ላይ የመስራት ጥቅሞች</h2>
+<h3 id="-ፍጥነት-እና-ውጤታማነት">፩. ፍጥነት እና ውጤታማነት</h3>
+<p>CLI ላይ ስንሰራ ተደጋጋሚ እና ዉስብስብ ነገሮችን በፍጥነት እና በተሳካ ሁኔታ ማሳካት እንችላለን ።
+ለምሳሌ፦ በአንድ ዳይሬክተሪ ውስጥ ያሉ የ ተክስት ፋይሎች ን ውደሌላ ዳይሬክተሪ ኮፒ ወይንም ማንቀሳቀስ ብንፈልግ <code>cp *.txt ./destinationDir</code> ብለን ማድረግ የፈለገ ብዛት ቢኖረውም በአንድ ጊዜ ማጠናቀቅ እንችላልርን</p>
+<h3 id="-ሲስተም-ለመቆጣተር">፪. ሲስተም ለመቆጣተር</h3>
+<p>ሲስተማችን ላይ ላይ የተከፈቱ ፕሮግራሞችን ለመቆጣጠር፣ የሲስተማችን ፋይሎችና ቅንብሮችን ለማስተካከልና ለመቆጣጠር ከGUI አማራጮች በተሻለ CLI ላይ መስራት ይመረጣል ።</p>
+<h3 id="-በቲኒሽ-የኮምፕዩተር-አቅም-ብዙ-ማሳካት">፫. በቲኒሽ የኮምፕዩተር አቅም ብዙ ማሳካት</h3>
+<p>CLI መተግበሪያዎች ብዙ የኮምፒውተር አቅም አይጠዩም። በአንጻሩ የ GUI መተግበሪያዎች ለመንቀሳቀስ የሚያስፈልጓቸው ሌሎች መተግበሪያዎች የኮምፕዩተራችንን አቅም ያሳንሱታል።</p>
+<h3 id="-ስለሲስተማችን-ግንዛቤ-ለመጨመ">፬. ስለሲስተማችን ግንዛቤ ለመጨመ</h3>
+<p>CLI ላይ ስነራም ይሁን CLI ስንማር ስለ ሲስተማችን አሰራር እና ስለ ሲስተማችን አቅም ያለን ግንዛቤ ይጨምራል።</p>
+<h3 id="--እንደባለሙያ-ለማደግ">፭.  እንደባለሙያ ለማደግ</h3>
+<p>የስራ ዘርፋችን በIT ኢንዱስትሪ ዊስጥ ከሆነ ውይንም እንዲሆን የምንፈልግ ከሆነ የCLI መሳሪያዎችን/ፕሮግራሞችን ማወቅ አስፈላጊ ነው። አብዛኛው የኔትዎርክ ሲስየሞች የሚቀናበሩት CLIን በመጠቀም እና የተለያዩ ስክሪፕቶችን በመጻፍ በመሆኑ ስለኮማንድ ላይን (CLI) ያለንን ግንዛቤ ማዳበር አስፈላጊ መው።</p>
+<h3 id="-ደስ-ይላል">፮. ደስ ይላል</h3>
+<p>ለብዙ ሰዎች ባይመስልም ኮማንድ ላይን ላይ መስራት የሚሰጠው ደስታ አለ። የተለያዩ ፕሮግራሞችን እርስ በእርስ እያጣመርን መጠቀም መቻላችን በቀላሉ የፈለግነውን ነገር ማሳካታችን ያስደስታል።</p>
+<p>CLI ላይ መስራት በመጀመሪያ አስፈሪ ወምንም የማቻል ሊመስል ኡችላል። ነገርግን ቲኒሽ ትኩረት እና ትግስት ካለን በአጭር ጊዜ ውስጥ መልመድ እንችላለን። ከዛም አልፎ ተደጋጋሚ ስራዎችን አውቶሜት እና ለማሳለጥ የተቅመናል።</p>
+<p>በቀጣይ ጽሁፎች እንዴት መጠቀም እምደምንችል እናያልርን</p>
+<p>ቻው ቻው!</p>
 
     </div>
     <div class="post-footer">

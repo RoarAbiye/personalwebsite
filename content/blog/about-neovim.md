@@ -5,6 +5,9 @@ title = 'ስለኒዮቪም'
 tags = ["termux", "intro", "linux-tools", "amharic"]
 categories = ["neovim-tutorial"]
 +++
+`{{< viewcount >}}`
+
+
 # ስለ ኒዮቪም (neovim)
 
 
@@ -69,4 +72,3 @@ categories = ["neovim-tutorial"]
 ቻውቻው!!
 
 
-`{{< viewcount >}}`

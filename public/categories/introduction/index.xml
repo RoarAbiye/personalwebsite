@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on ቀላልTech</title>
+    <link>https://www.robel.dev.et/categories/introduction/</link>
+    <description>Recent content in Introduction on ቀላልTech</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2025 11:00:50 +0300</lastBuildDate>
+    <atom:link href="https://www.robel.dev.et/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ለምን ተርሚናል ይመረጣል</title>
+      <link>https://www.robel.dev.et/blog/why-terminal/</link>
+      <pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate>
+      <guid>https://www.robel.dev.et/blog/why-terminal/</guid>
+      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;why-terminal&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን የጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
