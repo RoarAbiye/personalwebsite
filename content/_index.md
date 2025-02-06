@@ -1,10 +1,10 @@
 +++
-title = 'ቀላልTech'
+title = 'Tech & Tally by Robel'
 description = "A space where technology meets accounting, sharing insights in both fields."
 layout = "home"  # Optional, specify a custom layout if needed
 +++
 
-# Welcome to ቀላልTech
+# Welcome to Tech & Tally by Robel
 
 _This blog is a personal space where I share my knowledge, learnings, and experiences. Let's explore the world of accounting and technology together!_
 

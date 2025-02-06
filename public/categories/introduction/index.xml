@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on ቀላልTech</title>
+    <title>Introduction on Tech &amp; Tally by Robel</title>
     <link>https://www.robel.dev.et/categories/introduction/</link>
-    <description>Recent content in Introduction on ቀላልTech</description>
+    <description>Recent content in Introduction on Tech &amp; Tally by Robel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2025 11:00:50 +0300</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://www.robel.dev.et/blog/why-terminal/</link>
       <pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate>
       <guid>https://www.robel.dev.et/blog/why-terminal/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;why-terminal&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;  const slug = &#34;why-terminal&#34;;&#xD;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xD;&#xA;    .then(response =&gt; response.json())&#xD;&#xA;    .then(data =&gt; {&#xD;&#xA;      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;&#xD;&#xA;    })&#xD;&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xD;&#xA;&lt;/script&gt;&#xD;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
