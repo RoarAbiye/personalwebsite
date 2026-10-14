@@ -1,7 +1,7 @@
-baseURL = 'https://www.robel.dev.et'
-languageCode = 'en-us'
-title = 'Tech & Tally by Robel'
-theme = 'hugo-theme-m10c'
+baseURL = 'https://void.zero.et'
+local = 'en-us'
+title = 'Void.Zero by Robel'
+theme = 'hugo-blog-awesome'
 
 
 [menu]
