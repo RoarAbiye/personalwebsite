@@ -1,4 +1,201 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=content-type content="text/html"><meta name=viewport content="width=device-width,initial-scale=1"><title itemprop=name>Neovim-Tutorial | Void.Zero by Robel</title><meta property="og:title" content="Neovim-Tutorial | Void.Zero by Robel"><meta name=twitter:title content="Neovim-Tutorial | Void.Zero by Robel"><meta itemprop=name content="Neovim-Tutorial | Void.Zero by Robel"><meta name=application-name content="Neovim-Tutorial | Void.Zero by Robel"><meta property="og:site_name" content><meta name=description content="Exploring the Intersection of Accounting and Technology"><meta itemprop=description content="Exploring the Intersection of Accounting and Technology"><meta property="og:description" content="Exploring the Intersection of Accounting and Technology"><meta name=twitter:description content="Exploring the Intersection of Accounting and Technology"><meta property="og:locale" content="en"><meta name=language content="en"><link rel=alternate hreflang=en href=https://void.zero.et/categories/neovim-tutorial/ title><meta name=generator content="Hugo 0.168.0"><meta property="og:url" content="https://void.zero.et/categories/neovim-tutorial/"><meta property="og:site_name" content="Void.Zero by Robel"><meta property="og:title" content="Neovim-Tutorial"><meta property="og:description" content="Exploring the Intersection of Accounting and Technology"><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Neovim-Tutorial"><meta name=twitter:description content="Exploring the Intersection of Accounting and Technology"><link rel=canonical href=https://void.zero.et/categories/neovim-tutorial/><link href=/categories/neovim-tutorial/index.xml rel=alternate type=application/rss+xml title="Void.Zero by Robel"><link href=/categories/neovim-tutorial/index.xml rel=feed type=application/rss+xml title="Void.Zero by Robel"><link href=/style.min.e390ba7da26222f4dc42a349955d76dbbe44e5ce2535a43de5a70633a0a9ec3c.css rel=stylesheet><link href=/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css rel=stylesheet><link rel=apple-touch-icon sizes=180x180 href=/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/icons/favicon-16x16.png><link rel=mask-icon href=/icons/safari-pinned-tab.svg><link rel="shortcut icon" href=/favicon.ico><link rel=manifest href=https://void.zero.et/site.webmanifest><meta name=msapplication-config content="/browserconfig.xml"><meta name=msapplication-TileColor content="#2d89ef"><meta name=theme-color content="#434648"><meta name=color-scheme content="light dark"><link rel=icon type=image/svg+xml href=/icons/favicon.svg></head><body data-theme class=notransition><script src=/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script><div class=navbar role=navigation><nav class=menu aria-label="Main Navigation"><a href=https://void.zero.et/ class=logo><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><title/><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-</a><input type=checkbox id=menu-trigger class=menu-trigger>
-<label for=menu-trigger><span class=menu-icon><svg width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7H3.40726"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M.5 12.5V1.5c0-.552285.447715-1 1-1h11C13.0523.5 13.5.947715 13.5 1.5v11C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C.947715 13.5.5 13.0523.5 12.5z"/></svg></span></label><div class=trigger><ul class=trigger-container><li><a class=menu-link href=/blog>Blog</a></li><li><a class=menu-link href=/about>About</a></li><li><a class=menu-link href=/contact>Contact Me</a></li><li><a class=menu-link href=/categories>Categories</a></li><li><a class=menu-link href=/tags>Tags</a></li><li class=menu-separator><span>|</span></li></ul><a id=mode href=#><svg class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
-<svg class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg></a></div></nav></div><div class="wrapper list-page"><header class=header><h1 class="header-title center">Neovim-Tutorial</h1></header><main class=page-content aria-label=Content><h2 class=post-year>2025</h2><article class=post-item><h4 class=post-item-title><a href=/blog/configuring-neovim/>ኒዮቪምን ስለማቀናበር</a></h4><time class=post-item-meta datetime=2025-01-24T11:07:48+0300>24 Jan 2025</time></article><article class=post-item><h4 class=post-item-title><a href=/blog/neovim-on-termux/>ኒዮቪም ተርመክስ ላይ ስለመጫን</a></h4><time class=post-item-meta datetime=2025-01-23T12:19:39+0300>23 Jan 2025</time></article><article class=post-item><h4 class=post-item-title><a href=/blog/about-neovim/>ስለኒዮቪም</a></h4><time class=post-item-meta datetime=2025-01-19T15:42:39+0300>19 Jan 2025</time></article></main></div><footer class=footer><span class=footer_item></span>&nbsp;<div class=footer_social-icons></div><small class=footer_copyright>© 2026 .</small></footer><script src=https://void.zero.et/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Neovim-Tutorial | Void.Zero by Robel</title><meta name="description" content="Exploring the Intersection of Accounting and Technology">
+
+<meta name="generator" content="Hugo 0.170.1"><link rel="canonical" href="http://localhost:1313/categories/neovim-tutorial/"><meta property="og:title" content="Neovim-Tutorial">
+<meta property="og:description" content="Exploring the Intersection of Accounting and Technology">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost:1313/categories/neovim-tutorial/">
+<meta property="og:site_name" content="Void.Zero by Robel">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Neovim-Tutorial">
+<meta name="twitter:description" content="Exploring the Intersection of Accounting and Technology">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/rss+xml" href="/categories/neovim-tutorial/index.xml" title="Void.Zero by Robel">
+
+</head>
+<body>
+	<header>
+	<h1>
+		<a href="/">
+			Void.Zero by Robel
+		</a>
+	</h1>
+	
+	<nav aria-label="Main navigation">
+		<ul>
+			
+			<li><a href="/blog" >Blog</a></li>
+			
+			<li><a href="/about" >About</a></li>
+			
+			<li><a href="/contact" >Contact Me</a></li>
+			
+			<li><a href="/categories" >Categories</a></li>
+			
+			<li><a href="/tags" >Tags</a></li>
+			
+			<li><a href="http://localhost:1313/index.xml">RSS</a></li>
+		</ul>
+	</nav>
+	
+</header>
+	
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol aria-label="Breadcrumb navigation">
+    <li><a href="/">Root</a></li>
+    
+    
+    
+      
+    
+      
+        
+        <li>
+          <span class="breadcrumb-separator" aria-hidden="true">/</span>
+          
+            <a href="/categories/">Categories</a>
+          
+        </li>
+      
+    
+      
+        
+        <li>
+          <span class="breadcrumb-separator" aria-hidden="true">/</span>
+          
+            <span aria-current="page">Neovim tutorial</span>
+          
+        </li>
+      
+    
+      
+    
+  </ol>
+</nav>
+
+
+	
+	<main>
+		
+			<article>
+	<h2><a href="http://localhost:1313/blog/configuring-neovim/">ኒዮቪምን ስለማቀናበር</a></h2>
+	<time datetime="Jan 24, 2025">Jan 24, 2025</time>
+	
+	[<a href="/tags/termux">termux</a>, <a href="/tags/intro">intro</a>, <a href="/tags/linux-tools">linux-tools</a>, <a href="/tags/amharic">amharic</a>]
+	
+	<section>
+		<p><code><p id="view-count-configuring-neovim">Views: Loading...</p>
+<script>
+  const slug = "configuring-neovim";
+  fetch(`https://www.robel.dev.et/view/${slug}`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('view-count-configuring-neovim').innerText = `Views: ${data.views}`;
+    })
+    .catch(err => console.error('Error fetching view count:', err));
+</script>
+</code></p>
+<h1 id="ኒዮቪምን-በተርመክስ-ላይ-ስለማቀናበር">ኒዮቪምን በተርመክስ ላይ ስለማቀናበር</h1>
+<p>ኒዮቪምን ከጫንን በኋላ ይለዉን አቅም ለመጠቀም የራስችንን ኮንፊግሬሽን ፋይሎች መጻፍ ይኖርብናል። ለኒዮቪም አንዲስ ከሆንን ወይንም ይራሳችንን ኮንፊግሬሽን ፋይሎች ለመፃፍ ካልፈለግን ሌሎች የሌሎች ሰዎችን ኮንግሬሽን በመውሰድ (ጊትሃብ ላይ በብዛት ማግኘት ይቻላል) መጠቀም እንችላለን።</p>
+<p>ከዛም ባለፈ የተለያዩ የኒዮቪም ኮንፊግሬሽን ዲስትሪቢውሽኖችን በመጠቀም በቀላሉ መጠቀም መጀመር ይቻላል። እነዚህ የኒዮቪም ዲስትሪቢዉሽኖች በጥንቃቄ የተጻፉና ኒዮቪምን አቅም በጣም አጉልተው ማሳየት የሚችሉ እና ኒቪምን ከጽሁፍ ማስተካከያ (normal text editor) ወደ IDE (Integrated Development Environment) ደረጃ ማድረስ የሚችሉ ናቸው። ነገር ገን የኒዮቪም ኮንፊግሬሽን እራሳችን ስንፅፍ ስለ ኒዮቪም ያለን ግንዛቤ ከፍ ስለሚል እና ከራሳችን የአሰራር ባህሪ ጋር እንዲዋሃድ ማድረግ ስለምንችል ዲስትሪቢውሽኖችን ባንጠቀም የምረጣል።</p>
+		
+			<a href="http://localhost:1313/blog/configuring-neovim/" aria-label="Read more about ኒዮቪምን ስለማቀናበር">Read more...</a>
+		
+	</section>
+</article>
+
+		
+			<article>
+	<h2><a href="http://localhost:1313/blog/neovim-on-termux/">ኒዮቪም ተርመክስ ላይ ስለመጫን</a></h2>
+	<time datetime="Jan 23, 2025">Jan 23, 2025</time>
+	
+	[<a href="/tags/termux">termux</a>, <a href="/tags/intro">intro</a>, <a href="/tags/linux-tools">linux-tools</a>, <a href="/tags/amharic">amharic</a>]
+	
+	<section>
+		<p><code><p id="view-count-neovim-on-termux">Views: Loading...</p>
+<script>
+  const slug = "neovim-on-termux";
+  fetch(`https://www.robel.dev.et/view/${slug}`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('view-count-neovim-on-termux').innerText = `Views: ${data.views}`;
+    })
+    .catch(err => console.error('Error fetching view count:', err));
+</script>
+</code></p>
+<p>ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ <code>pkg i neovim</code> የሚለውን ኮማንድ በመጠቀም።</p>
+<p>በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።</p>
+		
+			<a href="http://localhost:1313/blog/neovim-on-termux/" aria-label="Read more about ኒዮቪም ተርመክስ ላይ ስለመጫን">Read more...</a>
+		
+	</section>
+</article>
+
+		
+			<article>
+	<h2><a href="http://localhost:1313/blog/about-neovim/">ስለኒዮቪም</a></h2>
+	<time datetime="Jan 19, 2025">Jan 19, 2025</time>
+	
+	[<a href="/tags/termux">termux</a>, <a href="/tags/intro">intro</a>, <a href="/tags/linux-tools">linux-tools</a>, <a href="/tags/amharic">amharic</a>]
+	
+	<section>
+		<p><code><p id="view-count-about-neovim">Views: Loading...</p>
+<script>
+  const slug = "about-neovim";
+  fetch(`https://www.robel.dev.et/view/${slug}`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('view-count-about-neovim').innerText = `Views: ${data.views}`;
+    })
+    .catch(err => console.error('Error fetching view count:', err));
+</script>
+</code></p>
+<h1 id="ስለ-ኒዮቪም-neovim">ስለ ኒዮቪም (neovim)</h1>
+<p>ኒዮቪም ቫይ ከተባለ የሌጣ ጽሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።</p>
+<p>ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።</p>
+<p>ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።</p>
+		
+			<a href="http://localhost:1313/blog/about-neovim/" aria-label="Read more about ስለኒዮቪም">Read more...</a>
+		
+	</section>
+</article>
+
+		
+		<nav aria-label="Pagination">
+
+<span aria-current="page">Page 1 of 1</span>
+
+</nav>
+
+	</main>
+<aside aria-label="Sidebar">
+	<section>
+		<h2>Latest Content</h2>
+		<nav aria-label="Recent posts">
+			<ul>
+				
+				<li><a href="/blog/tiktokcoffee/">Tiktokcoffee</a></li>
+				
+				<li><a href="/blog/why-terminal/">ለምን ተርሚናል ይመረጣል</a></li>
+				
+				<li><a href="/blog/configuring-neovim/">ኒዮቪምን ስለማቀናበር</a></li>
+				
+				<li><a href="/blog/neovim-on-termux/">ኒዮቪም ተርመክስ ላይ ስለመጫን</a></li>
+				
+				<li><a href="/blog/about-termux/">ስለተርመክስ</a></li>
+				
+			</ul>
+		</nav>
+	</section>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2026 <a href="/">http://localhost:1313/</a></p>
+</footer>
+
+</body>
+</html>
