@@ -1,158 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Void.Zero by Robel</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Void.Zero by Robel</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 17:05:06 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tiktokcoffee</title>
-      <link>http://localhost:1313/blog/tiktokcoffee/</link>
-      <pubDate>Sat, 21 Nov 2026 17:05:06 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tiktokcoffee/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-tiktokcoffee&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;tiktokcoffee&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-tiktokcoffee&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Sitting at a local coffee shop that is very small about five chairs. It’s a quiet place, but there is already a TikTok enjoyer disturbing my peace. It’s funny how the TikTok noise has become background noise now, like an ASMR sound: the laughs and short sounds cycling, looping. It has faded into the background. What does this mean if we try to get artsy-fartsy and analytical about it? We have learned (or so I think) how this short-form content is hurting our attention spans and all that. But now it’s in the background our constant, damaging hit to our brainpower is becoming the background of our lives. Our brain damage constitutes-or is-the soundtrack of our existence.
-​I remember Žižek saying we need to bring back shame; as in, we should start to feel shame for our misbehaviors. It’s great. People shouldn&amp;rsquo;t brag about being corrupted; they should at least have the decency to hide it. It would show that they still believe in the need to be morally righteous or something. I feel like we should extend that idea to this TikTok slop phenomenon. People should at least be ashamed of consuming slop; they should at least have the decency to use earphones.
-​Sometimes I feel like I’m trying to virtue signal (honestly, I am). I’m not completely in the realm of digital emancipation. I’m still guilty of replacing slop with mobile games. I don&amp;rsquo;t think I can last one minute without checking my phone. It’s like a disease. I can only work towards being unchained from these digital shackles one link at a time.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ለምን ተርሚናል ይመረጣል</title>
-      <link>http://localhost:1313/blog/why-terminal/</link>
-      <pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate>
-      <guid>http://localhost:1313/blog/why-terminal/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;why-terminal&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ኒዮቪምን ስለማቀናበር</title>
-      <link>http://localhost:1313/blog/configuring-neovim/</link>
-      <pubDate>Fri, 24 Jan 2025 11:07:48 +0300</pubDate>
-      <guid>http://localhost:1313/blog/configuring-neovim/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-configuring-neovim&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;configuring-neovim&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-configuring-neovim&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;ኒዮቪምን-በተርመክስ-ላይ-ስለማቀናበር&#34;&gt;ኒዮቪምን በተርመክስ ላይ ስለማቀናበር&lt;/h1&gt;
-&lt;p&gt;ኒዮቪምን ከጫንን በኋላ ይለዉን አቅም ለመጠቀም የራስችንን ኮንፊግሬሽን ፋይሎች መጻፍ ይኖርብናል። ለኒዮቪም አንዲስ ከሆንን ወይንም ይራሳችንን ኮንፊግሬሽን ፋይሎች ለመፃፍ ካልፈለግን ሌሎች የሌሎች ሰዎችን ኮንግሬሽን በመውሰድ (ጊትሃብ ላይ በብዛት ማግኘት ይቻላል) መጠቀም እንችላለን።&lt;/p&gt;
-&lt;p&gt;ከዛም ባለፈ የተለያዩ የኒዮቪም ኮንፊግሬሽን ዲስትሪቢውሽኖችን በመጠቀም በቀላሉ መጠቀም መጀመር ይቻላል። እነዚህ የኒዮቪም ዲስትሪቢዉሽኖች በጥንቃቄ የተጻፉና ኒዮቪምን አቅም በጣም አጉልተው ማሳየት የሚችሉ እና ኒቪምን ከጽሁፍ ማስተካከያ (normal text editor) ወደ IDE (Integrated Development Environment) ደረጃ ማድረስ የሚችሉ ናቸው። ነገር ገን የኒዮቪም ኮንፊግሬሽን እራሳችን ስንፅፍ ስለ ኒዮቪም ያለን ግንዛቤ ከፍ ስለሚል እና ከራሳችን የአሰራር ባህሪ ጋር እንዲዋሃድ ማድረግ ስለምንችል ዲስትሪቢውሽኖችን ባንጠቀም የምረጣል።&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ኒዮቪም ተርመክስ ላይ ስለመጫን</title>
-      <link>http://localhost:1313/blog/neovim-on-termux/</link>
-      <pubDate>Thu, 23 Jan 2025 12:19:39 +0300</pubDate>
-      <guid>http://localhost:1313/blog/neovim-on-termux/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-neovim-on-termux&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;neovim-on-termux&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-neovim-on-termux&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ &lt;code&gt;pkg i neovim&lt;/code&gt; የሚለውን ኮማንድ በመጠቀም።&lt;/p&gt;
-&lt;p&gt;በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ስለተርመክስ</title>
-      <link>http://localhost:1313/blog/about-termux/</link>
-      <pubDate>Tue, 21 Jan 2025 06:47:30 +0000</pubDate>
-      <guid>http://localhost:1313/blog/about-termux/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-about-termux&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;about-termux&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-about-termux&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ&lt;/p&gt;
-&lt;h2 id=&#34;ስለሊኑክስ-linux&#34;&gt;ስለሊኑክስ (Linux)&lt;/h2&gt;
-&lt;p&gt;ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ስለኒዮቪም</title>
-      <link>http://localhost:1313/blog/about-neovim/</link>
-      <pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
-      <guid>http://localhost:1313/blog/about-neovim/</guid>
-      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-about-neovim&#34;&gt;Views: Loading...&lt;/p&gt;
-&lt;script&gt;
-  const slug = &#34;about-neovim&#34;;
-  fetch(`https://www.robel.dev.et/view/${slug}`)
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      document.getElementById(&#39;view-count-about-neovim&#39;).innerText = `Views: ${data.views}`;
-    })
-    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
-&lt;/script&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;
-&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ጽሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;
-&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;
-&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds.From &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;Script Kiddie Style hacking&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;
-&lt;p&gt;With over 12 years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax accounting&lt;/strong&gt;,&lt;strong&gt;budgeting&lt;/strong&gt;and &lt;strong&gt;tax reporting&lt;/strong&gt;. Through my blog, I aim to share my accounting expreicances for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact Me</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:rblabiye5@gmail.com&#34;&gt;rblabiye5@gmail.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;social-media&#34;&gt;Social Media&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/robel-abiye/&#34;&gt;LinkedIn&lt;/a&gt; -
-&lt;a href=&#34;https://www.github.com/RoarAbiye&#34;&gt;github&lt;/a&gt; -
-&lt;a href=&#34;https://www.reddit.com/u/RobelAbiye&#34;&gt;reddit&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Void.Zero</title>
-      <link>http://localhost:1313/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/home/</guid>
-      <description>A space where technology meets accounting, sharing insights in both fields.</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Void.Zero by Robel</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Void.Zero by Robel</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 21 Nov 2026 17:05:06 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tiktokcoffee</title>
+				<link>http://localhost:1313/blog/tiktokcoffee/</link>
+				<pubDate>Sat, 21 Nov 2026 17:05:06 +0000</pubDate>
+				<guid>http://localhost:1313/blog/tiktokcoffee/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-tiktokcoffee&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;tiktokcoffee&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-tiktokcoffee&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sitting at a local coffee shop that is very small about five chairs. It’s a quiet place, but there is already a TikTok enjoyer disturbing my peace. It’s funny how the TikTok noise has become background noise now, like an ASMR sound: the laughs and short sounds cycling, looping. It has faded into the background. What does this mean if we try to get artsy-fartsy and analytical about it? We have learned (or so I think) how this short-form content is hurting our attention spans and all that. But now it’s in the background our constant, damaging hit to our brainpower is becoming the background of our lives. Our brain damage constitutes-or is-the soundtrack of our existence.&#xA;​I remember Žižek saying we need to bring back shame; as in, we should start to feel shame for our misbehaviors. It’s great. People shouldn&amp;rsquo;t brag about being corrupted; they should at least have the decency to hide it. It would show that they still believe in the need to be morally righteous or something. I feel like we should extend that idea to this TikTok slop phenomenon. People should at least be ashamed of consuming slop; they should at least have the decency to use earphones.&#xA;​Sometimes I feel like I’m trying to virtue signal (honestly, I am). I’m not completely in the realm of digital emancipation. I’m still guilty of replacing slop with mobile games. I don&amp;rsquo;t think I can last one minute without checking my phone. It’s like a disease. I can only work towards being unchained from these digital shackles one link at a time.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ለምን ተርሚናል ይመረጣል</title>
+				<link>http://localhost:1313/blog/why-terminal/</link>
+				<pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate>
+				<guid>http://localhost:1313/blog/why-terminal/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;why-terminal&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ኒዮቪምን ስለማቀናበር</title>
+				<link>http://localhost:1313/blog/configuring-neovim/</link>
+				<pubDate>Fri, 24 Jan 2025 11:07:48 +0300</pubDate>
+				<guid>http://localhost:1313/blog/configuring-neovim/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-configuring-neovim&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;configuring-neovim&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-configuring-neovim&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;ኒዮቪምን-በተርመክስ-ላይ-ስለማቀናበር&#34;&gt;ኒዮቪምን በተርመክስ ላይ ስለማቀናበር&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪምን ከጫንን በኋላ ይለዉን አቅም ለመጠቀም የራስችንን ኮንፊግሬሽን ፋይሎች መጻፍ ይኖርብናል። ለኒዮቪም አንዲስ ከሆንን ወይንም ይራሳችንን ኮንፊግሬሽን ፋይሎች ለመፃፍ ካልፈለግን ሌሎች የሌሎች ሰዎችን ኮንግሬሽን በመውሰድ (ጊትሃብ ላይ በብዛት ማግኘት ይቻላል) መጠቀም እንችላለን።&lt;/p&gt;&#xA;&lt;p&gt;ከዛም ባለፈ የተለያዩ የኒዮቪም ኮንፊግሬሽን ዲስትሪቢውሽኖችን በመጠቀም በቀላሉ መጠቀም መጀመር ይቻላል። እነዚህ የኒዮቪም ዲስትሪቢዉሽኖች በጥንቃቄ የተጻፉና ኒዮቪምን አቅም በጣም አጉልተው ማሳየት የሚችሉ እና ኒቪምን ከጽሁፍ ማስተካከያ (normal text editor) ወደ IDE (Integrated Development Environment) ደረጃ ማድረስ የሚችሉ ናቸው። ነገር ገን የኒዮቪም ኮንፊግሬሽን እራሳችን ስንፅፍ ስለ ኒዮቪም ያለን ግንዛቤ ከፍ ስለሚል እና ከራሳችን የአሰራር ባህሪ ጋር እንዲዋሃድ ማድረግ ስለምንችል ዲስትሪቢውሽኖችን ባንጠቀም የምረጣል።&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ኒዮቪም ተርመክስ ላይ ስለመጫን</title>
+				<link>http://localhost:1313/blog/neovim-on-termux/</link>
+				<pubDate>Thu, 23 Jan 2025 12:19:39 +0300</pubDate>
+				<guid>http://localhost:1313/blog/neovim-on-termux/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-neovim-on-termux&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;neovim-on-termux&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-neovim-on-termux&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን ተርመክስ ላይ ለመጫን ሁለት መንገዶች አሉ። ከተርመክስ የፕሮግራም ቋት ማውረድ እንችላለን። የተርመክስ ተርኒናላችን ላይ &lt;code&gt;pkg i neovim&lt;/code&gt; የሚለውን ኮማንድ በመጠቀም።&lt;/p&gt;&#xA;&lt;p&gt;በተጨማሪም የኒዮቪምን ሶርስ ኮደ ከጊትሃብ በማውረድ እና በማቀናበር (compile) በማድረግ አዲስ የሆነዉኑ ባህሪያትን (features) ማግኘት እንችላለን። ለተርመክስ እና ለኒዮቪም አዲስ ከሆነን ከተርመክስ ረፖዚቶሪ (ቋት) በማውረድ በንጠቀም ከበቂ በላይ ነው። ከሶርስ በማውረድ እና ኮምፓይል በማደረግ ለመጠቀም ክቅዚህ በታች ያሉትን ኮማዶች መጠቀም እንችላለን።&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ስለተርመክስ</title>
+				<link>http://localhost:1313/blog/about-termux/</link>
+				<pubDate>Tue, 21 Jan 2025 06:47:30 +0000</pubDate>
+				<guid>http://localhost:1313/blog/about-termux/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-about-termux&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;about-termux&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-about-termux&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ&lt;/p&gt;&#xA;&lt;h2 id=&#34;ስለሊኑክስ-linux&#34;&gt;ስለሊኑክስ (Linux)&lt;/h2&gt;&#xA;&lt;p&gt;ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ስለኒዮቪም</title>
+				<link>http://localhost:1313/blog/about-neovim/</link>
+				<pubDate>Sun, 19 Jan 2025 15:42:39 +0300</pubDate>
+				<guid>http://localhost:1313/blog/about-neovim/</guid>
+				<description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-about-neovim&#34;&gt;Views: Loading...&lt;/p&gt;&#xA;&lt;script&gt;&#xA;  const slug = &#34;about-neovim&#34;;&#xA;  fetch(`https://www.robel.dev.et/view/${slug}`)&#xA;    .then(response =&gt; response.json())&#xA;    .then(data =&gt; {&#xA;      document.getElementById(&#39;view-count-about-neovim&#39;).innerText = `Views: ${data.views}`;&#xA;    })&#xA;    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));&#xA;&lt;/script&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;ስለ-ኒዮቪም-neovim&#34;&gt;ስለ ኒዮቪም (neovim)&lt;/h1&gt;&#xA;&lt;p&gt;ኒዮቪም ቫይ ከተባለ የሌጣ ጽሁፍ ማስተካከያ (Plain Text Editor) የመጣዉ እና በብዙ የኮምፒዉተር ባለሙያዎች ተመራጭ የሆነዉን ቪም የተሰኘዉን የቴክስት ኤዲተር መሰርት አድጎ የተሰራ ቴክስት ኤዲተር ነው።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪም ሞዳል ቴክስት ኤዲተር ነው። ይህም ማለት ለተለያዩ ተግባሮች የተለያዩ ሞዶች አሉት።&lt;/p&gt;&#xA;&lt;p&gt;ኒዮቪምን በቀላሉ ፊቸሮችን (የሶፍትዌር ባህሪያት) መጨመር ማስቻሉ፣ እንደፈለግነው ማቀናበር (ኮንፊገር) መደረግ መቻሉ፣ ብዙ የፕለግኢን (ተጭማሪ የቅንብር ጥርቅሞች) አማራጪች መኖራቸው፣ በቲኒሽ የኮምፕዩተር አቅም ብዙ ነገሮችን ማሳካት መቻሉ ተመራጭ ያደርገዋል።&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About Me</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Robel Abiye&lt;/strong&gt;, an experienced accountant with a passion for technology. On this blog, I share insights on both worlds.From &lt;strong&gt;accounting principles&lt;/strong&gt; to &lt;strong&gt;Script Kiddie Style hacking&lt;/strong&gt; solutions. Whether you&amp;rsquo;re looking for tips on &lt;strong&gt;taxation&lt;/strong&gt;, &lt;strong&gt;financial analysis&lt;/strong&gt;, or &lt;strong&gt;software development&lt;/strong&gt; for financial systems, you&amp;rsquo;ve come to the right place!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;accounting&#34;&gt;Accounting&lt;/h2&gt;&#xA;&lt;p&gt;With over 12 years of experience in accounting, I specialize in &lt;strong&gt;financial reporting&lt;/strong&gt;, &lt;strong&gt;tax accounting&lt;/strong&gt;,&lt;strong&gt;budgeting&lt;/strong&gt;and &lt;strong&gt;tax reporting&lt;/strong&gt;. Through my blog, I aim to share my accounting expreicances for professionals and beginners alike, while sharing practical tools and resources.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Contact Me</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:rblabiye5@gmail.com&#34;&gt;rblabiye5@gmail.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;social-media&#34;&gt;Social Media&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/robel-abiye/&#34;&gt;LinkedIn&lt;/a&gt; -&#xA;&lt;a href=&#34;https://www.github.com/RoarAbiye&#34;&gt;github&lt;/a&gt; -&#xA;&lt;a href=&#34;https://www.reddit.com/u/RobelAbiye&#34;&gt;reddit&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Void.Zero</title>
+				<link>http://localhost:1313/home/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/home/</guid>
+				<description>&lt;p&gt;This blog is a personal Public Notebook where I store my thoughts, learnings processes, and experiences. You can read it if you want to!_&lt;/p&gt;&#xA;&lt;p&gt;Its not updated regularly so don&amp;rsquo;t feel disapointed if you refreshed and see nothgin. Feel free to reach out with any questions or if you have a job for me.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+	</channel>
 </rss>
