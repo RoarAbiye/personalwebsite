@@ -1,0 +1,101 @@
+baseURL = 'https://void.zero.et'
+local = 'en-us'
+title = '[∅:0] void.zero'
+theme = 'paperMod'
+
+
+[menu]
+  [[menu.main]]
+    name = "[∅:0]"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 5
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 6
+
+
+[params]
+
+    description = "You probably don't want to read it... it's all boaring"
+    avatar = "images/avatar.jpg"
+
+    dateFormat = "Jan 2, 2006"
+
+  [[params.social]]
+    icon = "brand-github"
+    name = "My Github"
+    url = "https://github.com/RoarAbiye"
+  
+  # [[params.social]]
+  #   icon = "brand-telegram"
+  #   name = "My telegram"
+  #   url = "https://t.me/robelabiye"
+  
+  [[params.social]]
+    icon = "brand-x"
+    name = "My twitter"
+    url = "https://x.com/RobelAbiye"
+  
+  [[params.social]]
+    icon = "brand-linkedin"
+    name = "My twitter"
+    url = "https://www.linkedin.com/in/robel-abiye/"
+  
+  [[params.social]]
+    icon = "brand-reddit"
+    name = "My twitter"
+    url = "https://www.reddit.com/u/RobelAbiye"
+  
+  [[params.social]]
+    icon = "brand-tiktok"
+    name = "My twitter"
+    url = "https://www.tiktok.com/@robeltalkstech"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      linkify = true
+      typographer = true
+      attributes = true
+
+[params.profileMode]
+  enabled = true
+  title = "[∅:0]"
+  subtitle = "void.zero: Public Private Notebook"
+  imageUrl = "static/images/avatar.jpg" # Place inside static/images/avatar.png (or use an external URL)
+  imageTitle = "Profile picture"
+  imageWidth = 120
+  imageHeight = 120
+
+  [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "/posts"
+
+  [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "/archives"

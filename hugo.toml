@@ -1,37 +1,34 @@
 baseURL = 'https://void.zero.et'
 local = 'en-us'
-title = 'Void.Zero by Robel'
+title = '[∅:0] void.zero'
 theme = 'paperMod'
 
+# themes/hugo-theme-nightfall/
 
 [menu]
-  [[menu.main]]
-    name = "Void.Zero"
-    url = "/"
-    weight = 1
 
   [[menu.main]]
-    name = "Blog"
+    name = "blog"
     url = "/blog"
     weight = 2
 
   [[menu.main]]
-    name = "About"
+    name = "about"
     url = "/about"
     weight = 3
 
   [[menu.main]]
-    name = "Contact"
+    name = "contact"
     url = "/contact"
     weight = 4
 
   [[menu.main]]
-    name = "Categories"
+    name = "categories"
     url = "/categories"
     weight = 5
 
   [[menu.main]]
-    name = "Tags"
+    name = "tags"
     url = "/tags"
     weight = 6
 
@@ -83,3 +80,22 @@ theme = 'paperMod'
       typographer = true
       attributes = true
 
+[params.profileMode]
+  enabled = true
+  title = "[∅:0]"
+  subtitle = "void.zero: Public Private Notebook"
+  imageUrl = "images/avatar.jpg" # Place inside static/images/avatar.png (or use an external URL)
+  imageTitle = "Profile picture"
+  imageWidth = 320
+  imageHeight = 320
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/robelabiye"
+
+[[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/robel-abiye"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:rblabiye5@gmail.com"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Test on [∅:0] void.zero</title><link>https://void.zero.et/tags/test/</link><description>Recent content in Test on [∅:0] void.zero</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 23 Nov 2026 22:40:00 +0300</lastBuildDate><atom:link href="https://void.zero.et/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing the Single Page Layout</title><link>https://void.zero.et/single/</link><pubDate>Mon, 23 Nov 2026 22:40:00 +0300</pubDate><guid>https://void.zero.et/single/</guid><description>&lt;p&gt;This is an introductory paragraph to check line height, readable column width, and default body font rendering on a single page.&lt;/p&gt;
+&lt;h2 id="section-heading-h2"&gt;Section Heading (H2)&lt;/h2&gt;
+&lt;p&gt;Here is a paragraph with &lt;strong&gt;bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, &lt;code&gt;inline code&lt;/code&gt;, and a &lt;a href="https://gohugo.io/"&gt;sample link&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="subheading-h3"&gt;Subheading (H3)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Simplicity is about subtracting the obvious and adding the meaningful.&amp;rdquo; — John Maeda&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="lists"&gt;Lists&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;First unordered item&lt;/li&gt;
+&lt;li&gt;Second unordered item with a nested point
+&lt;ul&gt;
+&lt;li&gt;Nested detail item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Third unordered item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;First numbered step&lt;/li&gt;
+&lt;li&gt;Second numbered step&lt;/li&gt;
+&lt;li&gt;Third numbered step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="code-block"&gt;Code Block&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;greet&lt;/span&gt;(name: str) &lt;span style="color:#f92672"&gt;-&amp;gt;&lt;/span&gt; str:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;name&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(greet(&lt;span style="color:#e6db74"&gt;&amp;#34;Hugo&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
