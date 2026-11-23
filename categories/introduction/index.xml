@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Void.Zero by Robel</title><link>https://void.zero.et/categories/introduction/</link><description>Recent content in Introduction on Void.Zero by Robel</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 26 Jan 2025 11:00:50 +0300</lastBuildDate><atom:link href="https://void.zero.et/categories/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>ለምን ተርሚናል ይመረጣል</title><link>https://void.zero.et/blog/why-terminal/</link><pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate><guid>https://void.zero.et/blog/why-terminal/</guid><description>&lt;p&gt;&lt;code&gt;&lt;p id="view-count-why-terminal"&gt;Views: Loading...&lt;/p&gt;&#10;&lt;script&gt;&#10; const slug = "why-terminal";&#10; fetch(`https://www.robel.dev.et/view/${slug}`)&#10; .then(response =&gt; response.json())&#10; .then(data =&gt; {&#10; document.getElementById('view-count-why-terminal').innerText = `Views: ${data.views}`;&#10; })&#10; .catch(err =&gt; console.error('Error fetching view count:', err));&#10;&lt;/script&gt;&#10;&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር- ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Introduction on Void.Zero by Robel</title>
+    <link>http://localhost:1313/categories/introduction/</link>
+    <description>Recent content in Introduction on Void.Zero by Robel</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 11:00:50 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ለምን ተርሚናል ይመረጣል</title>
+      <link>http://localhost:1313/blog/why-terminal/</link>
+      <pubDate>Sun, 26 Jan 2025 11:00:50 +0300</pubDate>
+      <guid>http://localhost:1313/blog/why-terminal/</guid>
+      <description>&lt;p&gt;&lt;code&gt;&lt;p id=&#34;view-count-why-terminal&#34;&gt;Views: Loading...&lt;/p&gt;
+&lt;script&gt;
+  const slug = &#34;why-terminal&#34;;
+  fetch(`https://www.robel.dev.et/view/${slug}`)
+    .then(response =&gt; response.json())
+    .then(data =&gt; {
+      document.getElementById(&#39;view-count-why-terminal&#39;).innerText = `Views: ${data.views}`;
+    })
+    .catch(err =&gt; console.error(&#39;Error fetching view count:&#39;, err));
+&lt;/script&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;የኮማንድ ላይን ኢንተርፌስ (CLI) ለመጀመሪያ ጊዜ አስፈሪ ሊመስል ይችላል። የለመድነውን የግራፊካል ዩዘር ኢንተርፌስ ቀላል ደሳስ የሚሉ ምስሎች እያደንን የፈለግነውን እየጠቆምን መንካቱ ከCLI አሰራር -በጽሁፍ ከኮምፒውተራችን ጋር ለመግባባት መሞከር-  ጋር ስናነጻጽረው ኋላ ቀር ወይንም አስቸጋሪ መስሎ ሊታየን ይችላል። ነገር ግን የሊኑክስን አቅም በላቀ መልኩ ለመጠቀም CLI መልመድ አስፈላጊነው። ከዝም አልፎ ተደጋጋሚ አንድ አንዳ አይነት የሆኑ ስራዎችን ኡቶሜት በማድረግ የተመቻቸ ስራ እንድንሰራ ያገዘናል። በዚህ አጭር ፅሁፍ የሊኑክስ CLI ላይ መስራት ተመራጭ የሚያደርጉትን ምክንያቶች እናያለን።&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
