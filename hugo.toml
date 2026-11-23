@@ -1,39 +1,48 @@
 baseURL = 'https://void.zero.et'
 local = 'en-us'
 title = 'Void.Zero by Robel'
-theme = 'lambda'
+theme = 'paperMod'
 
 
 [menu]
   [[menu.main]]
+    name = "Void.Zero"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
-    name = "Contact Me"
+    name = "Contact"
     url = "/contact"
-    weight = 3
+    weight = 4
+
   [[menu.main]]
     name = "Categories"
     url = "/categories"
-    weight = 4
+    weight = 5
+
   [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 4
+    weight = 6
 
 
 [params]
 
-  description = "Exploring the Intersection of Accounting and Technology"
-  avatar = "images/avatar.jpg"
-  
+    description = "You probably don't want to read it... it's all boaring"
+    avatar = "images/avatar.jpg"
+
+    dateFormat = "Jan 2, 2006"
+
   [[params.social]]
     icon = "brand-github"
     name = "My Github"

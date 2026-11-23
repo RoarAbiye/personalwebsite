@@ -1,6 +1,290 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>ስለተርመክስ | Void.Zero by Robel</title><meta name=description content="Exploring the Intersection of Accounting and Technology"><meta name=generator content="Hugo 0.170.1"><link rel=canonical href=https://void.zero.et/blog/about-termux/><meta property="og:title" content="ስለተርመክስ"><meta property="og:description" content="Exploring the Intersection of Accounting and Technology"><meta property="og:type" content="article"><meta property="og:url" content="https://void.zero.et/blog/about-termux/"><meta property="og:site_name" content="Void.Zero by Robel"><meta name=twitter:card content="summary"><meta name=twitter:title content="ስለተርመክስ"><meta name=twitter:description content="Exploring the Intersection of Accounting and Technology"><link rel=icon type=image/svg+xml href=/favicon.svg><link rel="shortcut icon" href=/favicon.ico><link rel=stylesheet href=/css/style.css></head><body><header><h1><a href=/>Void.Zero by Robel</a></h1><nav aria-label="Main navigation"><ul><li><a href=/blog>Blog</a></li><li><a href=/about>About</a></li><li><a href=/contact>Contact Me</a></li><li><a href=/categories>Categories</a></li><li><a href=/tags>Tags</a></li><li><a href=https://void.zero.et/index.xml>RSS</a></li></ul></nav></header><nav class=breadcrumbs aria-label=Breadcrumb><ol aria-label="Breadcrumb navigation"><li><a href=/>Root</a></li><li><span class=breadcrumb-separator aria-hidden=true>/</span>
-<a href=/blog/>Blog</a></li><li><span class=breadcrumb-separator aria-hidden=true>/</span>
-<span aria-current=page>About termux</span></li></ol></nav><main><article><h1>ስለተርመክስ</h1><time datetime="Jan 21, 2025">Jan 21, 2025</time><section><p><code><p id=view-count-about-termux>Views: Loading...</p><script>const slug="about-termux";fetch(`https://www.robel.dev.et/view/${slug}`).then(e=>e.json()).then(e=>{document.getElementById("view-count-about-termux").innerText=`Views: ${e.views}`}).catch(e=>console.error("Error fetching view count:",e))</script></code></p><p>ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ</p><h2 id=ስለሊኑክስ-linux>ስለሊኑክስ (Linux)</h2><p>ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።</p><h2 id=ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና>ሊኑክስ እና አንድሮይድ ያላቸው ዝምድና</h2><p>የአንድሮኢድ ኮር ሲስተም (ዋና ክፍል) የሊኑክስ <a href=https://en.m.wikipedia.org/wiki/Kernel_(operating_system)>ከርንልን</a> ይጠቀማል። ይህም ማለት ግን እንደ ዴስክቶፕም ሆነ እንደ ሰርቨር የሊኑክስን ሙሉ አገልግሎት ማግኘት እንችላለን ማለት አይደለም። ​የአንድሮይድ አፕልኬሽኖች የሚጠቀሙት የ የራሳቸው ሌየር(layer) ስላለ እና የአንድሮይድ ደህንነተና (security) ሌሎች የአሰራር ሁኔታዎች (design) በቀጥታ ከከርንሉ ጋር መገናኘትን ስለሚያግዱ በአንድሮይድ ላይ የሊኒክስን ሙሉ አገልግሎት ማግኘት አንችልም።</p><p>ይሁን እንጂ <a href=https://termux.dev/>ተርመክስን</a> (የአንድሮይድ አፕሊኬሽን) ትጠቅመን አብዛኛው ሊኑክስ ላይ የምንጠቀምባቸውን ፕርግራሞች እንዲሁም የዴስክቶፕ ኢንቫይሮመንት ጭነን እንደ ቨርቹአል ዴስክቶፕ መጠቀም እንችላለን።</p><p>ተርመክስ አንድሮይድ ላይ የሚሰራ የሊኑክስ የኢንቫይሮመንት እና የተርሚናል ኢሚዉሌተር (terminal emulator) ነው።</p><p>ሊኑክስን በቨርቿል ማሺን ወይንም በአዲሱ ከ windows 10 ጋር በመጣው wsl (Windows subsystem for Linux) አማራጮች መሞከርም ሆነ መየቀም እየቻልምልን ለምን አንድሮይድብ ሙሉ ለሙሉ ባልሆነ አቅሙ ለምን እንጠቀማለን? ብላችሁ ልታስቡ ትችላላችሁ። ተርመክስን ስንጠቀም በኪሳችን ይዘነው በቀላሉ መንቀሳቀሳችን፣ ኮምፒውተር ማግኘት በማንችልበት ጊዜ፣ ወይንም ከነጭራሹ ከሌለን፣ ከዛም በተረፈ እንደዚህ አይነት ነገር ለሚያስደስተው ሰው ተርመክስ አሪፍ አማራጭ ነው።</p><h2 id=ተርመክስን-እንዴት-መጠቀም-እንችላለን>ተርመክስን እንዴት መጠቀም እንችላለን</h2><p>ተርመክስን ከ f-droid (free and open source የአንድሮይድ አፕሊኬሽኖች ያሉበት የplaystore አማራጭ) ላይ ዳውንሎድ አድርገን መጠቀም እንችላለን። ወይንም ቀጥታ <a href=https://github.com/termux/termux-app>ከgithub</a> የapk ፋይል አውርደን በመጫን መጠቀም እንችላለን። playstore ላይ የሚገኝውን የተርመክስ አፕሊኬሽን ጊዜ ያለፈበት (outdated) ስለሆነ ባንጠቀመው ይመከራል።</p><p>የተርመክስ አፕሊኬሽንን ከጫነው በኋላ <code>pkg</code> የተባልውን ፓኬጅ ማናጀር (ሶፍትዋሮችን ለመጫን፣ ለመሰረዝ እና ለማደስ (update) ለማድረግ የምንጠምበት የ ሶፍትዌር አይነት) በመጠቀም ሶፍተ</p><p>ለምሳሌ</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span>$ pkg update <span style=color:#f92672>&amp;&amp;</span> pkg upgrade <span style=color:#75715e># ሲስተማችንን ለማደስ(updating our system)</span>
-</span></span><span style=display:flex><span>$ pkg install &lt;የፕሮግራም ስም&gt; <span style=color:#75715e>#ፕሮግራሞችን ለምጫን</span>
-</span></span><span style=display:flex><span>$ pkg remove &lt;የፕሮግራም ስም&gt; <span style=color:#75715e>#ፕሮግራሞችን ከሲስተማችን ለማስወገድ</span>
-</span></span></code></pre></div><p>ቻውቻው!!</p></section><footer><strong>Tags:</strong><ul id=tags><li><a href=/tags/termux>termux</a></li><li><a href=/tags/intro>intro</a></li><li><a href=/tags/linux-tools>linux-tools</a></li><li><a href=/tags/amharic>amharic</a></li></ul></footer></article></main><aside aria-label=Sidebar><section><h2>Latest Content</h2><nav aria-label="Recent posts"><ul><li><a href=/blog/tiktokcoffee/>Tiktokcoffee</a></li><li><a href=/blog/why-terminal/>ለምን ተርሚናል ይመረጣል</a></li><li><a href=/blog/configuring-neovim/>ኒዮቪምን ስለማቀናበር</a></li><li><a href=/blog/neovim-on-termux/>ኒዮቪም ተርመክስ ላይ ስለመጫን</a></li><li><a href=/blog/about-termux/>ስለተርመክስ</a></li></ul></nav></section></aside><footer><p>&copy; 2026 <a href=/>https://void.zero.et/</a></p></footer></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>ስለተርመክስ | Void.Zero by Robel</title>
+<meta name="keywords" content="termux, intro, linux-tools, amharic">
+<meta name="description" content="Views: Loading...
+
+
+ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ
+ስለሊኑክስ (Linux)
+ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/about-termux/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.95ae6e9689bd0037456375629f411acbf8ed76e0e9a7599900ad281f9526dee6.css" integrity="sha256-la5ulom9ADdFY3Vin0Eay/jtduDpp1mZAK0oH5Um3uY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/about-termux/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Void.Zero by Robel (Alt + H)">Void.Zero by Robel</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Void.Zero">
+                    <span>Void.Zero</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      ስለተርመክስ
+    </h1>
+    <div class="post-meta">
+
+<span title='2025-01-21T06:47:30+00:00'>Jan 21, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p><code><p id="view-count-about-termux">Views: Loading...</p>
+<script>
+  const slug = "about-termux";
+  fetch(`https://www.robel.dev.et/view/${slug}`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('view-count-about-termux').innerText = `Views: ${data.views}`;
+    })
+    .catch(err => console.error('Error fetching view count:', err));
+</script>
+</code></p>
+<p>ተርመክስ: ሊኑክስ ሲስተም በአንድሮይድ</p>
+<h2 id="ስለሊኑክስ-linux">ስለሊኑክስ (Linux)<a hidden class="anchor" aria-hidden="true" href="#ስለሊኑክስ-linux">#</a></h2>
+<p>ከ 90% በላይ የሚሆኑ በአለማችን ያሉ ሱፐር ኮምፕዩተሮች አና ሰርቨሮችን የሚያንቀሳቅሰው ሊኑክስ ኦፕሬቲንግ ሲስተም ነው። ከ 45% በላይ የሚሆኑ የሶፍትዌር ዴቨሎፐሮች ሊኑክስ ላይ መስራት እንደሚመርጡ ይነገራል። ሊኑክስ ለቫይረስ ተጋላጭ አለመሆኑ፣ የተጠበቀ (secured) መሆኑ፣ እንዲሁም ኦፕን ሶርስ ሶፍትዌር(Open Source Software) መሆኑ ለዴስክቶፕ ተመራጭ ቢያደርገውም፣ በተለያዩ ምክኒያቶች በዴስክቶፕ ኮምፕዩተሮች ላይ ያለው ድርሻ አነስተኛ ነው። ሌላ ጊዜ ሊኑክስን ዴስክቶፕ ላይ እንዴት መጫን እንደምንችል እናያለን።</p>
+<h2 id="ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና">ሊኑክስ እና አንድሮይድ ያላቸው ዝምድና<a hidden class="anchor" aria-hidden="true" href="#ሊኑክስ-እና-አንድሮይድ-ያላቸው-ዝምድና">#</a></h2>
+<p>የአንድሮኢድ ኮር ሲስተም (ዋና ክፍል) የሊኑክስ <a href="https://en.m.wikipedia.org/wiki/Kernel_(operating_system)">ከርንልን</a> ይጠቀማል። ይህም ማለት ግን እንደ ዴስክቶፕም ሆነ እንደ ሰርቨር የሊኑክስን ሙሉ አገልግሎት ማግኘት እንችላለን ማለት አይደለም። ​የአንድሮይድ አፕልኬሽኖች የሚጠቀሙት የ የራሳቸው ሌየር(layer) ስላለ እና የአንድሮይድ ደህንነተና (security) ሌሎች የአሰራር ሁኔታዎች (design) በቀጥታ ከከርንሉ ጋር መገናኘትን ስለሚያግዱ በአንድሮይድ ላይ የሊኒክስን ሙሉ አገልግሎት ማግኘት አንችልም።</p>
+<p>ይሁን እንጂ <a href="https://termux.dev/">ተርመክስን</a> (የአንድሮይድ አፕሊኬሽን) ትጠቅመን አብዛኛው ሊኑክስ ላይ የምንጠቀምባቸውን ፕርግራሞች እንዲሁም የዴስክቶፕ ኢንቫይሮመንት ጭነን እንደ ቨርቹአል ዴስክቶፕ መጠቀም እንችላለን።</p>
+<p>ተርመክስ አንድሮይድ ላይ የሚሰራ የሊኑክስ የኢንቫይሮመንት እና የተርሚናል ኢሚዉሌተር (terminal emulator) ነው።</p>
+<p>ሊኑክስን በቨርቿል ማሺን ወይንም በአዲሱ ከ windows 10 ጋር በመጣው wsl (Windows subsystem for Linux) አማራጮች መሞከርም ሆነ መየቀም እየቻልምልን ለምን አንድሮይድብ ሙሉ ለሙሉ ባልሆነ አቅሙ ለምን እንጠቀማለን? ብላችሁ ልታስቡ ትችላላችሁ። ተርመክስን ስንጠቀም በኪሳችን ይዘነው በቀላሉ መንቀሳቀሳችን፣ ኮምፒውተር ማግኘት በማንችልበት ጊዜ፣ ወይንም ከነጭራሹ ከሌለን፣ ከዛም በተረፈ እንደዚህ አይነት ነገር ለሚያስደስተው ሰው ተርመክስ አሪፍ አማራጭ ነው።</p>
+<h2 id="ተርመክስን-እንዴት-መጠቀም-እንችላለን">ተርመክስን እንዴት መጠቀም እንችላለን<a hidden class="anchor" aria-hidden="true" href="#ተርመክስን-እንዴት-መጠቀም-እንችላለን">#</a></h2>
+<p>ተርመክስን ከ f-droid (free and open source የአንድሮይድ አፕሊኬሽኖች ያሉበት የplaystore አማራጭ) ላይ ዳውንሎድ አድርገን መጠቀም እንችላለን። ወይንም ቀጥታ <a href="https://github.com/termux/termux-app">ከgithub</a> የapk ፋይል አውርደን በመጫን መጠቀም እንችላለን። playstore ላይ የሚገኝውን የተርመክስ አፕሊኬሽን ጊዜ ያለፈበት (outdated) ስለሆነ ባንጠቀመው ይመከራል።</p>
+<p>የተርመክስ አፕሊኬሽንን ከጫነው በኋላ <code>pkg</code> የተባልውን ፓኬጅ ማናጀር (ሶፍትዋሮችን ለመጫን፣ ለመሰረዝ እና ለማደስ (update) ለማድረግ የምንጠምበት የ ሶፍትዌር አይነት) በመጠቀም ሶፍተ</p>
+<p>ለምሳሌ</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ pkg update <span style="color:#f92672">&amp;&amp;</span> pkg upgrade <span style="color:#75715e"># ሲስተማችንን ለማደስ(updating our system)</span>
+</span></span><span style="display:flex;"><span>$ pkg install &lt;የፕሮግራም ስም&gt; <span style="color:#75715e">#ፕሮግራሞችን ለምጫን</span>
+</span></span><span style="display:flex;"><span>$ pkg remove &lt;የፕሮግራም ስም&gt; <span style="color:#75715e">#ፕሮግራሞችን ከሲስተማችን ለማስወገድ</span>
+</span></span></code></pre></div><p>ቻውቻው!!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/termux/">Termux</a></li>
+      <li><a href="http://localhost:1313/tags/intro/">Intro</a></li>
+      <li><a href="http://localhost:1313/tags/linux-tools/">Linux-Tools</a></li>
+      <li><a href="http://localhost:1313/tags/amharic/">Amharic</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Void.Zero by Robel</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        
+        let menuScrollTimeout;
+        menu.addEventListener("scroll", function () {
+            clearTimeout(menuScrollTimeout);
+            menuScrollTimeout = setTimeout(function () {
+                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            }, 150);
+        }, { passive: true });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            const target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                target.scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                target.scrollIntoView();
+            }
+            
+            
+            if (target.tabIndex < 0 && !target.hasAttribute("tabindex")) {
+                target.setAttribute("tabindex", "-1");
+            }
+            target.focus({ preventScroll: true });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    var scrollTicking = false;
+    
+    window.addEventListener("scroll", function () {
+        if (scrollTicking) {
+            return;
+        }
+        scrollTicking = true;
+        requestAnimationFrame(function () {
+            const scrollThreshold = window.innerHeight;
+            const shown = document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold;
+            toplink.classList.toggle("hidden", !shown);
+            scrollTicking = false;
+        });
+    }, { passive: true });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
