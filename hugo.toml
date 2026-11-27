@@ -3,32 +3,35 @@ local = 'en-us'
 title = '[∅:0] void.zero'
 theme = 'paperMod'
 
-# themes/hugo-theme-nightfall/
 
 [menu]
+  [[menu.main]]
+    name = "[∅:0]"
+    url = "/"
+    weight = 1
 
   [[menu.main]]
-    name = "blog"
+    name = "Blog"
     url = "/blog"
     weight = 2
 
   [[menu.main]]
-    name = "about"
+    name = "About"
     url = "/about"
     weight = 3
 
   [[menu.main]]
-    name = "contact"
+    name = "Contact"
     url = "/contact"
     weight = 4
 
   [[menu.main]]
-    name = "categories"
+    name = "Categories"
     url = "/categories"
     weight = 5
 
   [[menu.main]]
-    name = "tags"
+    name = "Tags"
     url = "/tags"
     weight = 6
 
@@ -84,18 +87,15 @@ theme = 'paperMod'
   enabled = true
   title = "[∅:0]"
   subtitle = "void.zero: Public Private Notebook"
-  imageUrl = "images/avatar.jpg" # Place inside static/images/avatar.png (or use an external URL)
+  imageUrl = "static/images/avatar.jpg" # Place inside static/images/avatar.png (or use an external URL)
   imageTitle = "Profile picture"
-  imageWidth = 320
-  imageHeight = 320
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/robelabiye"
+  imageWidth = 120
+  imageHeight = 120
 
-[[params.socialIcons]]
-  name = "LinkedIn"
-  url = "https://linkedin.com/robel-abiye"
+  [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "/posts"
 
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:rblabiye5@gmail.com"
+  [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "/archives"
